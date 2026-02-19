@@ -1,0 +1,150 @@
+start log  APi  send Parameter : 14-03-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => Bry
+    [contact->fname] => Elise
+    [contact->email] => ebry@phare-west.fr
+    [contact->mobile_phone] => 0643347271
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => Face au 9 Quai du 4 Septembre
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 92100
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Boulogne-Billancour
+    [contact->iban->iban] => FR7612548029989876543210917
+    [contact->iban->bic] => SOGEFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-02-02
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 123456
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpJ44BuQ
+            [mime] => image/jpeg
+            [postname] => Test-Summer.jpg
+        )
+
+)
+start log succes APi  Response :14-03-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8056472505699
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 14-03-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => GRAND
+    [contact->fname] => BERNARD
+    [contact->email] => NARDCHA@FREE.FR
+    [contact->mobile_phone] => 0626936320
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 11 rue des chardons
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 81500
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => LAVAUR
+    [contact->iban->iban] => FR7630056000490049124967340
+    [contact->iban->bic] => CCFRFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-03-14
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111001338
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/php54LRjk
+            [mime] => application/pdf
+            [postname] => facture robot piscine.pdf
+        )
+
+)
+start log succes APi  Response :14-03-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8076472764209
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)

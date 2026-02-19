@@ -1,0 +1,80 @@
+
+start log  APi  send Parameter : 14-03-2022
+Array
+(
+    [operation->code] => 3002_bwt_contrat_excellence_2022
+    [contact->lname] => Bry
+    [contact->fname] => Elise
+    [contact->email] => ebry@phare-west.fr
+    [contact->mobile_phone] => 0643347271
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => Face au 9 Quai du 4 Septembre
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 92100
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Boulogne-Billancour
+    [contact->iban->iban] => FR3220041010051480588E02656
+    [contact->iban->bic] => PSSTFRPR
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->comment1] => Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->purchase_date] => 2022-02-02
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_SERIAL_NUMBER}->order{0}->serial_number] => 123456
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/php6zxiZW
+            [mime] => image/png
+            [postname] => Capture d’écran 2022-01-10 à 12.05.38.png
+        )
+
+)
+
+start log  APi  Response Sucess: 14-03-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8826472508040
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)

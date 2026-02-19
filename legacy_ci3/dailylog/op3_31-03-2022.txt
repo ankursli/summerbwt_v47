@@ -1,0 +1,78 @@
+
+start log  APi  send Parameter : 31-03-2022
+Array
+(
+    [operation->code] => 3002_bwt_contrat_excellence_2022
+    [contact->lname] => Vallaud test avril
+    [contact->fname] => Lucas
+    [contact->email] => summertestavril@yopmail.com
+    [contact->mobile_phone] => 0632383733
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 38 rue durantin
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 75018
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Paris
+    [contact->iban->iban] => FR3220041010051480588E02656
+    [contact->iban->bic] => PSSTFRPR
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->comment1] => gkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkggkgkgkgkkg
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->purchase_date] => 2022-03-31
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_SERIAL_NUMBER}->order{0}->serial_number] => gkgkgkkgkg78
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpHilPQA
+            [mime] => image/jpeg
+            [postname] => 8cab910044d2a4ae173dfbe3e451a600.jpeg
+        )
+
+)
+
+start log  APi  Response Sucess: 31-03-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8766487427243
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)

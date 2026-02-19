@@ -1,0 +1,75 @@
+start log  APi  send Parameter : 08-08-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => SYTNIKOVA
+    [contact->fname] => LARYSA
+    [contact->email] => larysa.sytnikova@outlook.fr
+    [contact->mobile_phone] => 0681956547
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 84 RUE LODI
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => BAT M APT 51
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 13006
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => MARSEILLE
+    [contact->iban->iban] => FR7644319134970603180774016
+    [contact->iban->bic] => PREUFRP1
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-07-25
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111002751
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpuiVxtS
+            [mime] => image/jpeg
+            [postname] => SERIE.jpg
+        )
+
+)
+start log succes APi  Response :08-08-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8936599610370
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)

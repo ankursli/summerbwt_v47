@@ -1,0 +1,300 @@
+start log  APi  send Parameter : 13-03-2023
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => adamy
+    [contact->fname] => John
+    [contact->email] => john2012007@gmail.com
+    [contact->mobile_phone] => 0426067808
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => Sulkuvartijankatu 68
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => hhh
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 69001
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Helshikini
+    [contact->iban->iban] => FR4514508000407683788461L32
+    [contact->iban->bic] => BDFEFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2023-03-17
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 66
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web11/tmp/phpvmOIf7
+            [mime] => image/png
+            [postname] => Screenshot (11).png
+        )
+
+)
+start log succes APi  Response :13-03-2023
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8036786892111
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 13-03-2023
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => adamy
+    [contact->fname] => John
+    [contact->email] => john2012007@gmail.com
+    [contact->mobile_phone] => 0426067808
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => Sulkuvartijankatu 68
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => hhh
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 69001
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Helshikini
+    [contact->iban->iban] => FR4514508000407683788461L32
+    [contact->iban->bic] => BDFEFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2023-03-22
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 66
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web11/tmp/phpgjxvx1
+            [mime] => image/png
+            [postname] => Screenshot (13).png
+        )
+
+)
+start log succes APi  Response :13-03-2023
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8186786892564
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 13-03-2023
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => adamy
+    [contact->fname] => John
+    [contact->email] => john2012007@gmail.com
+    [contact->mobile_phone] => 0426067808
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => Sulkuvartijankatu 68
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => hhh
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 69001
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Helshikini
+    [contact->iban->iban] => FR4514508000407683788461L32
+    [contact->iban->bic] => BDFEFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2023-03-23
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 66
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web11/tmp/phpi0fAmN
+            [mime] => image/png
+            [postname] => Screenshot (15).png
+        )
+
+)
+start log succes APi  Response :13-03-2023
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8206786983991
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 13-03-2023
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => adamy
+    [contact->fname] => John
+    [contact->email] => john2012007@gmail.com
+    [contact->mobile_phone] => 0426067808
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => Sulkuvartijankatu 68
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => hhh
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 69001
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Helshikini
+    [contact->iban->iban] => FR6630003000505452553889J80
+    [contact->iban->bic] => BDFEFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2019-09-24
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => Culpa enim quis magn
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web11/tmp/php2gtKnm
+            [mime] => image/png
+            [postname] => Screenshot (15).png
+        )
+
+)
+start log succes APi  Response :13-03-2023
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8006787033905
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)

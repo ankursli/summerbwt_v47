@@ -1,0 +1,225 @@
+start log  APi  send Parameter : 16-06-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => chemoul 
+    [contact->fname] => Fabienne 
+    [contact->email] => fabienne.chemoul@gmail.com
+    [contact->mobile_phone] => 0613827900
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 1 rue du bourdicou
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 81500
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => lavaur
+    [contact->iban->iban] => FR7611206200060071156355523
+    [contact->iban->bic] => AGRIFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-06-07
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => RE2D-MRDB-PLSIE  BWT P500 PLUS ROBOTIC QC5  1722   R/N 2204003509 C/N 125305507
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpzYGPNl
+            [mime] => image/jpeg
+            [postname] => facture robot piscine 2022 001.jpg
+        )
+
+)
+start log succes APi  Response :16-06-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8136553694471
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 16-06-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => LAFONT
+    [contact->fname] => Stephane
+    [contact->email] => fonlax@gmail.com
+    [contact->mobile_phone] => 0603702813
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 450 Chemin du Fond des Horts
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 31870
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => LAGARDELLE SUR LEZE
+    [contact->iban->iban] => FR7617807007043541956129444
+    [contact->iban->bic] => CCBPFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-05-31
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => RE2D-MRDB-PLS1E
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpGse9j4
+            [mime] => application/pdf
+            [postname] => Facture Robot BWT.pdf
+        )
+
+)
+start log succes APi  Response :16-06-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8246553831384
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 16-06-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => LIU
+    [contact->fname] => Sylviane
+    [contact->email] => sylvianel2004@yahoo.fr
+    [contact->mobile_phone] => 0761115750
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 13 CLOS DU LUTCHE
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 31380
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => GARIDECH
+    [contact->iban->iban] => FR7640618802820004080575552
+    [contact->iban->bic] => BOUSFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-06-04
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2204003603
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/php9mpyyo
+            [mime] => application/pdf
+            [postname] => scan_20220616164643.pdf
+        )
+
+)
+start log succes APi  Response :16-06-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8266553926736
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)

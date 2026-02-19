@@ -1,0 +1,75 @@
+start log  APi  send Parameter : 03-04-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => DOMINIQUE
+    [contact->fname] => SARI
+    [contact->email] => dsari@pharmamar.fr
+    [contact->mobile_phone] => 0776797835
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 149 Chemin de la Mongiscarde
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 31340
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Layrac sur Tarn
+    [contact->iban->iban] => FR7630004020070000024687004
+    [contact->iban->bic] => BNPFRPPX
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-03-11
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111002307
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpfjMNPU
+            [mime] => application/pdf
+            [postname] => RobotBWT.pdf
+        )
+
+)
+start log succes APi  Response :03-04-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8626489931646
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)

@@ -1,0 +1,123 @@
+start log  APi  send Parameter : 12-05-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => PAGES
+    [contact->fname] => JEROME
+    [contact->email] => melaniepaquet@wanadoo.fr
+    [contact->mobile_phone] => 0601833233
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 7 IMPASSE DES CHEVREUILS
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 31120
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => GOYRANS
+    [contact->iban->iban] => FR7610057190470002030000192
+    [contact->iban->bic] => CMCIFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-04-05
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2102001654
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phprPKPn1
+            [mime] => application/pdf
+            [postname] => FACTURE ROBOT BWT P500 - PAGES JEROME.pdf
+        )
+
+)
+start log succes APi  Response :12-05-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8196523432700
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 12-05-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => CHAPUIS
+    [contact->fname] => Nicolas
+    [contact->email] => chapuis.nicolasveronique@wanadoo.fr
+    [contact->mobile_phone] => 0668434319
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 23 allee des Ormes
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 1960
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Peronnas
+    [contact->iban->iban] => FR7610096180340002422440160
+    [contact->iban->bic] => CMCIFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-05-10
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111001279
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpGeaot1
+            [mime] => application/pdf
+            [postname] => facture-20220510_012457.pdf
+        )
+
+)
+start log succes APi  Response :12-05-2022
+stdClass Object
+(
+    [consumer] => 
+    [sponsorship_consumer] => 
+    [participation] => 
+    [state] => 
+    [optin] => 
+    [confirmation_message] => 
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+            [0] => RULE_POSTAL_CODE_FORMAT
+        )
+
+    [http_code] => 400
+    [status_code] => Data_exception
+    [object] => 
+)

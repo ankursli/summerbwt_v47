@@ -1,0 +1,165 @@
+start log  APi  send Parameter : 09-03-2022\n\rArray
+(
+    [operation->code] => 3002_bwt_contrat_excellence_2022
+    [contact->lname] => adamy
+    [contact->fname] => John
+    [contact->email] => john2012007@gmail.com
+    [contact->mobile_phone] => 0426067808
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => Sulkuvartijankatu 68
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => hhh
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 69001
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Helshikini
+    [contact->iban->iban] => FR1420041010050500013M02606
+    [contact->iban->bic] => WERWRWWW
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->comment1] => Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->purchase_date] => 2022-03-12
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_SERIAL_NUMBER}->order{0}->serial_number] => 50000
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phphF8miH
+            [mime] => image/png
+            [postname] => 1_1554700656.png
+        )
+
+)
+start log  APi  Response Sucess: 09-03-2022\n\r{"required_fields":[],"invalid_rules":[],"http_code":200,"status_code":"Ok","object":null,"participation":{"number":"8736468138062","start_date":null,"is_private":null,"browser":null,"device":null,"ip_address":null,"datas":[],"duplicate_criteria":null,"promo_code":null,"premium":null,"store":null,"shop":null,"documents":[],"products":null,"premiums":null,"language":null,"moment":null,"follow_url":null,"state":null,"click_to_opinion":null,"points":null},"participation_state":"STATE_WAITING","consumer_external_id":null,"confirmation_message":""}                
+start log  APi  send Parameter : 09-03-2022\n\rArray
+(
+    [operation->code] => 3002_bwt_contrat_excellence_2022
+    [contact->lname] => adamy
+    [contact->fname] => John
+    [contact->email] => john2012007@gmail.com
+    [contact->mobile_phone] => 0426067808
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => Sulkuvartijankatu 68
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => hhh
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 69001
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Helshikini
+    [contact->iban->iban] => FR1420041010050500013M02606
+    [contact->iban->bic] => GLOVEHAR
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->comment1] => Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->purchase_date] => 2022-03-22
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_SERIAL_NUMBER}->order{0}->serial_number] => 4785000
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/php9BtU89
+            [mime] => image/jpeg
+            [postname] => rotterdam-4152380_640.jpg
+        )
+
+)
+
+start log  APi  Response Sucess: 09-03-2022\n\r{"required_fields":[],"invalid_rules":[],"http_code":200,"status_code":"Ok","object":null,"participation":{"number":"8206468139876","start_date":null,"is_private":null,"browser":null,"device":null,"ip_address":null,"datas":[],"duplicate_criteria":null,"promo_code":null,"premium":null,"store":null,"shop":null,"documents":[],"products":null,"premiums":null,"language":null,"moment":null,"follow_url":null,"state":null,"click_to_opinion":null,"points":null},"participation_state":"STATE_WAITING","consumer_external_id":null,"confirmation_message":""}                
+start log  APi  send Parameter : 09-03-2022
+Array
+(
+    [operation->code] => 3002_bwt_contrat_excellence_2022
+    [contact->lname] => adamy
+    [contact->fname] => John
+    [contact->email] => john2012007@gmail.com
+    [contact->mobile_phone] => 0426067808
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => Sulkuvartijankatu 68
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => hhh
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 69001
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Helshikini
+    [contact->iban->iban] => FR1420041010050500013M02606
+    [contact->iban->bic] => HARSHLOV
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->comment1] => Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)Raison(s) pour laquelle (lesquelles) vous vous voulez renvoyer votre produit ?
+(1000 caractères min.)
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->purchase_date] => 2022-03-18
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_SERIAL_NUMBER}->order{0}->serial_number] => 47852500
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/php5YuulV
+            [mime] => image/jpeg
+            [postname] => eiffel-tower-103417_640.jpg
+        )
+
+)
+
+start log  APi  Response Sucess: 09-03-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8566468141126
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)

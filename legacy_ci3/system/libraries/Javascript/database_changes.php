@@ -1,0 +1,3 @@
+<?php
+
+$pointer_mrk='';

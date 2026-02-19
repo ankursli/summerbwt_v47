@@ -1,0 +1,7 @@
+<?php
+
+namespace App\Controllers;
+die("Front.php LOADED");
+
+use App\Models\Mdl_Block;
+...

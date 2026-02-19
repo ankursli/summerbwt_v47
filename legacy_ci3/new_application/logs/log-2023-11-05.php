@@ -1,0 +1,45 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-11-05 02:16:10 --> 404 Page Not Found: Contact/index
+ERROR - 2023-11-05 02:16:10 --> 404 Page Not Found: Contact/index
+ERROR - 2023-11-05 02:38:14 --> 404 Page Not Found: Sitemapxml/index
+ERROR - 2023-11-05 02:39:50 --> Could not find the language line "label_enter_password"
+ERROR - 2023-11-05 02:52:13 --> 404 Page Not Found: admin/Plugins/plupload
+ERROR - 2023-11-05 08:15:48 --> 404 Page Not Found: Wp-content/themes
+ERROR - 2023-11-05 14:49:50 --> 404 Page Not Found: Humanstxt/index
+ERROR - 2023-11-05 14:49:50 --> 404 Page Not Found: Adstxt/index
+ERROR - 2023-11-05 16:47:56 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-11-05 17:32:57 --> 404 Page Not Found: Well-known/assetlinks.json
+ERROR - 2023-11-05 17:52:56 --> 404 Page Not Found: Wp-includes/wlwmanifest.xml
+ERROR - 2023-11-05 17:52:56 --> 404 Page Not Found: Xmlrpcphp/index
+ERROR - 2023-11-05 17:52:56 --> 404 Page Not Found: Blog/wp-includes
+ERROR - 2023-11-05 17:52:57 --> 404 Page Not Found: Web/wp-includes
+ERROR - 2023-11-05 17:52:57 --> 404 Page Not Found: Wordpress/wp-includes
+ERROR - 2023-11-05 17:52:57 --> 404 Page Not Found: Website/wp-includes
+ERROR - 2023-11-05 17:52:57 --> 404 Page Not Found: Wp/wp-includes
+ERROR - 2023-11-05 17:52:57 --> 404 Page Not Found: News/wp-includes
+ERROR - 2023-11-05 17:52:57 --> 404 Page Not Found: 2018/wp-includes
+ERROR - 2023-11-05 17:52:58 --> 404 Page Not Found: 2019/wp-includes
+ERROR - 2023-11-05 17:52:58 --> 404 Page Not Found: Shop/wp-includes
+ERROR - 2023-11-05 17:52:58 --> 404 Page Not Found: Wp1/wp-includes
+ERROR - 2023-11-05 17:52:58 --> 404 Page Not Found: Test/wp-includes
+ERROR - 2023-11-05 17:52:58 --> 404 Page Not Found: Media/wp-includes
+ERROR - 2023-11-05 17:52:58 --> 404 Page Not Found: Wp2/wp-includes
+ERROR - 2023-11-05 17:52:58 --> 404 Page Not Found: Site/wp-includes
+ERROR - 2023-11-05 17:52:59 --> 404 Page Not Found: Cms/wp-includes
+ERROR - 2023-11-05 17:52:59 --> 404 Page Not Found: Sito/wp-includes
+ERROR - 2023-11-05 18:37:10 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-11-05 20:02:58 --> 404 Page Not Found: Well-known/assetlinks.json
+ERROR - 2023-11-05 22:51:59 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-11-05 23:55:52 --> 404 Page Not Found: Env/index
+ERROR - 2023-11-05 23:56:13 --> 404 Page Not Found: Env/index
+ERROR - 2023-11-05 23:56:22 --> 404 Page Not Found: Summerbwtfr/.env
+ERROR - 2023-11-05 23:56:29 --> 404 Page Not Found: Summerbwtfr/.env
+ERROR - 2023-11-05 23:56:35 --> 404 Page Not Found: Vendor/.env
+ERROR - 2023-11-05 23:56:41 --> 404 Page Not Found: Vendor/.env
+ERROR - 2023-11-05 23:56:49 --> 404 Page Not Found: Summerbwtfr/.env
+ERROR - 2023-11-05 23:57:19 --> 404 Page Not Found: Summerbwtfr/.env
+ERROR - 2023-11-05 23:58:06 --> 404 Page Not Found: admin/Env/index
+ERROR - 2023-11-05 23:58:27 --> 404 Page Not Found: admin/Env/index
+ERROR - 2023-11-05 23:58:32 --> 404 Page Not Found: Summerbwtfr/.env
+ERROR - 2023-11-05 23:58:38 --> 404 Page Not Found: Summerbwtfr/.env

@@ -1,0 +1,123 @@
+start log  APi  send Parameter : 19-06-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => Cabanne
+    [contact->fname] => Nicolas
+    [contact->email] => laetitiafiore@orange.fr
+    [contact->mobile_phone] => 0624753441
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 10 avenue de la condamine
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 11250
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Ladern sur lauquet 
+    [contact->iban->iban] => FR7613506100001704183000028
+    [contact->iban->bic] => AGRIFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-06-18
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => sn 2004003163 cn 125305507
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpCqjtnf
+            [mime] => application/pdf
+            [postname] => FA0028929.pdf
+        )
+
+)
+start log succes APi  Response :19-06-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8936556249742
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 19-06-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => Martin 
+    [contact->fname] => Henri-Paul 
+    [contact->email] => gege.1986@hotmail.fr
+    [contact->mobile_phone] => 0652943756
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 48 Chemin du Groulas 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 6670
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Saint Blaise 
+    [contact->iban->iban] => FR7619106006850032437401965
+    [contact->iban->bic] => AGRIFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-06-14
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111001615
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpX40QSU
+            [mime] => application/pdf
+            [postname] => Facture robot.pdf
+        )
+
+)
+start log succes APi  Response :19-06-2022
+stdClass Object
+(
+    [consumer] => 
+    [sponsorship_consumer] => 
+    [participation] => 
+    [state] => 
+    [optin] => 
+    [confirmation_message] => 
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+            [0] => RULE_POSTAL_CODE_FORMAT
+        )
+
+    [http_code] => 400
+    [status_code] => Data_exception
+    [object] => 
+)

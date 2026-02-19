@@ -1,0 +1,32 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-04-13 01:25:52 --> 404 Page Not Found: Env/index
+ERROR - 2023-04-13 01:25:53 --> 404 Page Not Found: Env/index
+ERROR - 2023-04-13 03:16:22 --> 404 Page Not Found: Env/index
+ERROR - 2023-04-13 03:16:22 --> 404 Page Not Found: Env/index
+ERROR - 2023-04-13 05:08:06 --> 404 Page Not Found: Wordpress/index
+ERROR - 2023-04-13 14:08:55 --> 404 Page Not Found: Env/index
+ERROR - 2023-04-13 14:08:56 --> 404 Page Not Found: Env/index
+ERROR - 2023-04-13 21:13:26 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-04-13 21:13:28 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-04-13 21:13:31 --> 404 Page Not Found: Wordpress/wp-login.php
+ERROR - 2023-04-13 21:13:32 --> 404 Page Not Found: Blog/wp-login.php
+ERROR - 2023-04-13 21:13:34 --> 404 Page Not Found: Wp/wp-login.php
+ERROR - 2023-04-13 21:28:26 --> 404 Page Not Found: Well-known/assetlinks.json
+ERROR - 2023-04-13 23:53:17 --> 404 Page Not Found: Wp-includes/wlwmanifest.xml
+ERROR - 2023-04-13 23:53:18 --> 404 Page Not Found: Xmlrpcphp/index
+ERROR - 2023-04-13 23:53:18 --> 404 Page Not Found: Blog/wp-includes
+ERROR - 2023-04-13 23:53:18 --> 404 Page Not Found: Web/wp-includes
+ERROR - 2023-04-13 23:53:19 --> 404 Page Not Found: Wordpress/wp-includes
+ERROR - 2023-04-13 23:53:19 --> 404 Page Not Found: Website/wp-includes
+ERROR - 2023-04-13 23:53:19 --> 404 Page Not Found: Wp/wp-includes
+ERROR - 2023-04-13 23:53:19 --> 404 Page Not Found: News/wp-includes
+ERROR - 2023-04-13 23:53:20 --> 404 Page Not Found: 2020/wp-includes
+ERROR - 2023-04-13 23:53:20 --> 404 Page Not Found: 2019/wp-includes
+ERROR - 2023-04-13 23:53:20 --> 404 Page Not Found: Shop/wp-includes
+ERROR - 2023-04-13 23:53:20 --> 404 Page Not Found: Wp1/wp-includes
+ERROR - 2023-04-13 23:53:21 --> 404 Page Not Found: Test/wp-includes
+ERROR - 2023-04-13 23:53:21 --> 404 Page Not Found: Wp2/wp-includes
+ERROR - 2023-04-13 23:53:21 --> 404 Page Not Found: Site/wp-includes
+ERROR - 2023-04-13 23:53:21 --> 404 Page Not Found: Cms/wp-includes
+ERROR - 2023-04-13 23:53:22 --> 404 Page Not Found: Sito/wp-includes

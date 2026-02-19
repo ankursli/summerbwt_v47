@@ -1,0 +1,188 @@
+start log  APi  send Parameter : 22-03-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => adamy
+    [contact->fname] => John
+    [contact->email] => john2012007@gmail.com
+    [contact->mobile_phone] => 0426067808
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => Sulkuvartijankatu 68
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => hhh
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 69001
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Helshikini
+    [contact->iban->iban] => FR3220041010051480588E02656
+    [contact->iban->bic] => SWEDDSEE
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-04-05
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => test
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpkRSqim
+            [mime] => image/jpeg
+            [postname] => sample_640×426.jpeg
+        )
+
+)
+start log succes APi  Response :22-03-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => RULE_BAD_UPLOADED_FILE
+    [http_code] => 
+    [status_code] => 400
+    [object] => 
+)
+start log  APi  send Parameter : 22-03-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => adamy
+    [contact->fname] => John
+    [contact->email] => john2012007@gmail.com
+    [contact->mobile_phone] => 0426067808
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => Sulkuvartijankatu 68
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => hhh
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 69001
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Helshikini
+    [contact->iban->iban] => FR3220041010051480588E02656
+    [contact->iban->bic] => ghjkllkj
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-03-29
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => test
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpBKOZAm
+            [mime] => image/jpeg
+            [postname] => exclu.jpg
+        )
+
+)
+start log succes APi  Response :22-03-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8956479430911
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 22-03-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => Vallaudtest
+    [contact->fname] => Lucas
+    [contact->email] => testlucas22summer@yopmail.com
+    [contact->mobile_phone] => 0632383733
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 38 rue durantin
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 75018
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Paris
+    [contact->iban->iban] => FR7617807006178551930061409
+    [contact->iban->bic] => CCBPFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-03-23
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => S/N 2104005797
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phphF5JDl
+            [mime] => image/jpeg
+            [postname] => E07C453F-8C9D-4C44-AF44-8E854203270E1.jpeg
+        )
+
+)
+start log succes APi  Response :22-03-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8256479502015
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)

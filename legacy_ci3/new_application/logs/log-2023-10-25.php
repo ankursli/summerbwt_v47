@@ -1,0 +1,30 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-10-25 02:29:14 --> 404 Page Not Found: Well-known/assetlinks.json
+ERROR - 2023-10-25 03:04:51 --> 404 Page Not Found: Wp-content/plugins
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Wwwsummerbwtfr/assets
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Adminlteio/themes
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Maxcdnbootstrapcdncom/bootstrap
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Wwwsummerbwtfr/assets
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Adminlteio/themes
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Cdnjscloudflarecom/ajax
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Ajaxgoogleapiscom/ajax
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Wwwsummerbwtfr/assets
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Wwwsummerbwtfr/assets
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Wwwsummerbwtfr/assets
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Wwwsummerbwtfr/assets
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Wwwsummerbwtfr/assets
+ERROR - 2023-10-25 07:14:10 --> 404 Page Not Found: Connectfacebooknet/en_US
+ERROR - 2023-10-25 07:14:11 --> 404 Page Not Found: Wwwsummerbwtfr/assets
+ERROR - 2023-10-25 07:14:11 --> 404 Page Not Found: Wwwsummerbwtfr/assets
+ERROR - 2023-10-25 07:14:11 --> 404 Page Not Found: Adminlteio/themes
+ERROR - 2023-10-25 08:30:41 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-10-25 08:30:42 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-10-25 08:30:42 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-10-25 08:30:43 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-10-25 17:26:00 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-10-25 18:48:07 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-10-25 19:24:14 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2023-10-25 19:44:42 --> 404 Page Not Found: Well-known/assetlinks.json
+ERROR - 2023-10-25 21:04:14 --> 404 Page Not Found: Aws/credentials
+ERROR - 2023-10-25 22:52:49 --> 404 Page Not Found: Well-known/traffic-advice

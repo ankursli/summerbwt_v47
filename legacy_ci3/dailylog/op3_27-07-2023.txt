@@ -1,0 +1,109 @@
+
+start log  APi  send Parameter : 27-07-2023
+Array
+(
+    [operation->code] => 3002_bwt_contrat_excellence_2022
+    [contact->lname] => COULOIGNER
+    [contact->fname] => DANIEL
+    [contact->email] => daniel.couloigner@orange.fr
+    [contact->mobile_phone] => 0781645538
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 75 CHEMIN MIMIAGUE
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 64310
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => ASCAIN
+    [contact->iban->iban] => FR7613335000400493217162902
+    [contact->iban->bic] => CEPAFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->comment1] => Piscine coque ancienne de 20 ans avec des angles à 45° au fond et aux quatre extrémités ce qui gène le robot dans son fonctionnement, quand il passe sur les angles il est mal appliqué, il déplace les débris sans les aspirer ce qui resali les parties qu'il vient de nettoyer, quand il fait la ligne d'eau il se retourne a cause des margelles qui dépassent sur le bassin, il libère des détritus déjà ramassés, idem pour les marches. Je suis obligé de le surveiller constamment. Cet appareil est inutile pour ce genre de piscine................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................                                                                
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->purchase_date] => 2023-06-27
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_SERIAL_NUMBER}->order{0}->serial_number] => 2210003049
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpTtRVV9
+            [mime] => application/pdf
+            [postname] => robot 001.pdf
+        )
+
+)
+
+start log  APi  Response Error: 27-07-2023
+couldn't open file "/var/www/clients/client0/web5/tmp/phpTtRVV9"
+start log  APi  send Parameter : 27-07-2023
+Array
+(
+    [operation->code] => 3002_bwt_contrat_excellence_2022
+    [contact->lname] => COULOIGNER
+    [contact->fname] => DANIEL
+    [contact->email] => daniel.couloigner@orange.fr
+    [contact->mobile_phone] => 0781645538
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 75 CHEMIN MIMIAGUE
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 64310
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => ASCAIN
+    [contact->iban->iban] => FR7613335000400493217162902
+    [contact->iban->bic] => CEPAFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->comment1] => Piscine coque ancienne de 20 ans avec des angles à 45° au fond et aux quatre extrémités ce qui gène le robot dans son fonctionnement, quand il passe sur les angles il est mal appliqué, il déplace les débris sans les aspirer ce qui resali les parties qu'il vient de nettoyer, quand il fait la ligne d'eau il se retourne a cause des margelles qui dépassent sur le bassin, il libère des détritus déjà ramassés, idem pour les marches. Je suis obligé de le surveiller constamment. Cet appareil est inutile pour ce genre de piscine................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................                                                                
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->purchase_date] => 2023-06-27
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_SERIAL_NUMBER}->order{0}->serial_number] => 2210003049
+    [operations{3002_bwt_contrat_excellence_2022}->participation->documents{3002_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpPmsbbk
+            [mime] => application/pdf
+            [postname] => robot 001.pdf
+        )
+
+)
+
+start log  APi  Response Sucess: 27-07-2023
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [error_code] => 
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8926904477309
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)

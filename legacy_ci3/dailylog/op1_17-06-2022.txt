@@ -1,0 +1,302 @@
+start log  APi  send Parameter : 17-06-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => Rastelli
+    [contact->fname] => Steve
+    [contact->email] => steve.rastelli@laposte.net
+    [contact->mobile_phone] => 0674574660
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 3 route de marmagne
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 3 route de Marmagne
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 71710
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Montcenis
+    [contact->iban->iban] => FR7610278025740002025700240
+    [contact->iban->bic] => CMCIFR2A
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-06-15
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2204003317
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpyfC015
+            [mime] => image/jpeg
+            [postname] => Facture Noriver robot piscine.jpeg
+        )
+
+)
+start log succes APi  Response :17-06-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8796554450829
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 17-06-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => Rastelli
+    [contact->fname] => Steve
+    [contact->email] => steve.rastelli@laposte.net
+    [contact->mobile_phone] => 0674574660
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 3 route de marmagne
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 3 route de Marmagne
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 71710
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Montcenis
+    [contact->iban->iban] => FR7610278025740002025700240
+    [contact->iban->bic] => CMCIFR2A
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-06-15
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2204003317
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phphPV0wx
+            [mime] => image/jpeg
+            [postname] => Facture Noriver robot piscine.jpeg
+        )
+
+)
+start log succes APi  Response :17-06-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8806554450924
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 17-06-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => GUILLAUME
+    [contact->fname] => Pascal
+    [contact->email] => guillaumepascal5032@neuf.fr
+    [contact->mobile_phone] => 0684446157
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 5 rue des épis
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 31170
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Tournefeuille
+    [contact->iban->iban] => FR7610278022190001259630120
+    [contact->iban->bic] => CMCIFR2A
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-04-30
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111002011
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpLpus2k
+            [mime] => application/pdf
+            [postname] => Facture_22-04-5863_GUILLAUME_Pascal.pdf
+        )
+
+)
+start log succes APi  Response :17-06-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8096554596184
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 17-06-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => circuns
+    [contact->fname] => THIERRY
+    [contact->email] => thierry.circuns@orange.fr
+    [contact->mobile_phone] => 0681852522
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 5 Avenue des moulins
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 9210
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => lezat sur leze
+    [contact->iban->iban] => FR7617106000761196080901088
+    [contact->iban->bic] => AGRIFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-06-03
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2104005114
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/php9gvSv3
+            [mime] => application/pdf
+            [postname] => CCE17062022_0002.pdf
+        )
+
+)
+start log succes APi  Response :17-06-2022
+stdClass Object
+(
+    [consumer] => 
+    [sponsorship_consumer] => 
+    [participation] => 
+    [state] => 
+    [optin] => 
+    [confirmation_message] => 
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+            [0] => RULE_POSTAL_CODE_FORMAT
+        )
+
+    [http_code] => 400
+    [status_code] => Data_exception
+    [object] => 
+)
+start log  APi  send Parameter : 17-06-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => KHENFER
+    [contact->fname] => NACERA
+    [contact->email] => lahrirnacera@outlook.fr
+    [contact->mobile_phone] => 0617432545
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 323 CHEMIN DES PINS PIGNONS
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 83550
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => VIDAUBAN
+    [contact->iban->iban] => FR8630002005600000051499J23
+    [contact->iban->bic] => CRLYFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-06-01
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => SN 2110004375  -  CN 125305508
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpBvDSvl
+            [mime] => application/pdf
+            [postname] => PACA POOL SERVICES Facture Mr Khenfer robot.pdf
+        )
+
+)
+
+start log  APi  Response error here : 17-06-2022
+couldn't open file "/var/www/clients/client0/web5/tmp/phpBvDSvl"

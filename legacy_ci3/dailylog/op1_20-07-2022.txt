@@ -1,0 +1,273 @@
+start log  APi  send Parameter : 20-07-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => bouhier
+    [contact->fname] => severine
+    [contact->email] => poussinette47@orange.fr
+    [contact->mobile_phone] => 0638565848
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => rouby
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 47330
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => castillonnes
+    [contact->iban->iban] => FR7610278373200001028330323
+    [contact->iban->bic] => CMCIFR2A
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-07-18
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111001406
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpYDcTSL
+            [mime] => image/jpeg
+            [postname] => 20220720_134339.jpg
+        )
+
+)
+start log  APi  send Parameter : 20-07-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => bouhier
+    [contact->fname] => severine
+    [contact->email] => poussinette47@orange.fr
+    [contact->mobile_phone] => 0638565848
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => rouby
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 47330
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => castillonnes
+    [contact->iban->iban] => FR7610278373200001028330323
+    [contact->iban->bic] => CMCIFR2A
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-07-18
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111001406
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpQnzJcT
+            [mime] => image/jpeg
+            [postname] => 20220720_134339.jpg
+        )
+
+)
+start log succes APi  Response :20-07-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8576583180078
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log succes APi  Response :20-07-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8126583180174
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 20-07-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => MARDUEL
+    [contact->fname] => Gaetane 
+    [contact->email] => gaetane.marduel@gmail.com
+    [contact->mobile_phone] => 0493080924
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 18 ancien chemin de la begude
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 6670
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Colomars
+    [contact->iban->iban] => FR7630003002930005177704428
+    [contact->iban->bic] => SOGEFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-05-14
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 210004926
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpfigmtj
+            [mime] => application/pdf
+            [postname] => Document 1 (1).pdf
+        )
+
+)
+start log succes APi  Response :20-07-2022
+stdClass Object
+(
+    [consumer] => 
+    [sponsorship_consumer] => 
+    [participation] => 
+    [state] => 
+    [optin] => 
+    [confirmation_message] => 
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+            [0] => RULE_POSTAL_CODE_FORMAT
+        )
+
+    [http_code] => 400
+    [status_code] => Data_exception
+    [object] => 
+)
+start log  APi  send Parameter : 20-07-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => courthieu
+    [contact->fname] => lucas
+    [contact->email] => lucascourthieu@gmail.com
+    [contact->mobile_phone] => 0645282549
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 9 chemin de jean set
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 31450
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => ayguesvives
+    [contact->iban->iban] => FR7613106005003002534870934
+    [contact->iban->bic] => AFRIFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-07-18
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2104005570
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpAft9JB
+            [mime] => application/pdf
+            [postname] => FA0000210.pdf
+        )
+
+)
+start log succes APi  Response :20-07-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8736583467733
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)

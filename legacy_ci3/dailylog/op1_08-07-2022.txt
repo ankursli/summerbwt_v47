@@ -1,0 +1,150 @@
+start log  APi  send Parameter : 08-07-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => DEPRAUW
+    [contact->fname] => THIERRY
+    [contact->email] => deprauw.th@orange.fr
+    [contact->mobile_phone] => 0645943268
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 1627 AVENUE D'ARGELES 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] =>  KM4 ROUTE D'ELNE
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 66100
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => PERPIGNAN
+    [contact->iban->iban] => FR7616607000000001977546144
+    [contact->iban->bic] => CCBPFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-07-05
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111002257
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpQF7mfp
+            [mime] => image/jpeg
+            [postname] => FACTURE ROBOT PISCINE BWT P500   .jpg
+        )
+
+)
+start log succes APi  Response :08-07-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8656572766640
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 08-07-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => MORELLON
+    [contact->fname] => Thierry
+    [contact->email] => thierry.morellon@wanadoo.fr
+    [contact->mobile_phone] => 0478449138
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 2 chemin des charmilles
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 69850
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Saint Martin en Haut
+    [contact->iban->iban] => FR6920041010070605619E03894
+    [contact->iban->bic] => PSSTFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-06-27
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 26635584
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/php0VwoUE
+            [mime] => application/pdf
+            [postname] => facture_FAC00000396_Robot BWT.pdf
+        )
+
+)
+start log succes APi  Response :08-07-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8776572949734
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)

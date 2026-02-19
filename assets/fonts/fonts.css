@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Font BWT Soliden';
+    src: url('Font_BWT_Soliden/woff2/bwt_soliden-vf-webfont.woff2') format('woff2'),
+         url('Font_BWT_Soliden/woff2/bwtsoliden-boldhead-webfont.woff2') format('woff2'),
+         url('Font_BWT_Soliden/woff2/bwtsoliden-boldtext-webfont.woff2') format('woff2'),
+         url('Font_BWT_Soliden/woff2/bwtsoliden-lighthead-webfont.woff2') format('woff2'),
+         url('Font_BWT_Soliden/woff2/bwtsoliden-lighttext-webfont.woff2') format('woff2'),
+         url('Font_BWT_Soliden/woff2/bwtsoliden-regulartext-webfont.woff2') format('woff2'),
+         url('Font_BWT_Soliden/BWTSoliden-BoldHead.ttf') format('truetype'),
+         url('Font_BWT_Soliden/BWTSoliden-BoldText.ttf') format('truetype'),
+         url('Font_BWT_Soliden/BWTSoliden-LightHead.ttf') format('truetype'),
+         url('Font_BWT_Soliden/BWTSoliden-LightText.ttf') format('truetype'),
+         url('Font_BWT_Soliden/BWTSoliden-RegularText.ttf') format('truetype'),
+         url('Font_BWT_Soliden/BWTSoliden-VF.ttf') format('truetype'),
+         url('Font_BWT_Soliden/Soliden-VF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avallon';
+    src: url('Avallon.eot');
+    src: url('Avallon.eot?#iefix') format('embedded-opentype'),
+        url('Avallon.woff2') format('woff2'),
+        url('Avallon.woff') format('woff'),
+        url('Avallon.ttf') format('truetype'),
+        url('Avallon.svg#Avallon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera PRO';
+    src: url('CeraPRO-Medium.eot');
+    src: url('CeraPRO-Medium.eot?#iefix') format('embedded-opentype'),
+        url('CeraPRO-Medium.woff2') format('woff2'),
+        url('CeraPRO-Medium.woff') format('woff'),
+        url('CeraPRO-Medium.ttf') format('truetype'),
+        url('CeraPRO-Medium.svg#CeraPRO-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera PRO';
+    src: url('CeraPRO-Bold.eot');
+    src: url('CeraPRO-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CeraPRO-Bold.woff2') format('woff2'),
+        url('CeraPRO-Bold.woff') format('woff'),
+        url('CeraPRO-Bold.ttf') format('truetype'),
+        url('CeraPRO-Bold.svg#CeraPRO-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa Slab';
+    src: url('NexaSlab-Regular.eot');
+    src: url('NexaSlab-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NexaSlab-Regular.woff2') format('woff2'),
+        url('NexaSlab-Regular.woff') format('woff'),
+        url('NexaSlab-Regular.ttf') format('truetype'),
+        url('NexaSlab-Regular.svg#NexaSlab-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera PRO';
+    src: url('CeraPRO-Light.eot');
+    src: url('CeraPRO-Light.eot?#iefix') format('embedded-opentype'),
+        url('CeraPRO-Light.woff2') format('woff2'),
+        url('CeraPRO-Light.woff') format('woff'),
+        url('CeraPRO-Light.ttf') format('truetype'),
+        url('CeraPRO-Light.svg#CeraPRO-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Stencil PRO';
+    src: url('CeraStencilPRO-Black.eot');
+    src: url('CeraStencilPRO-Black.eot?#iefix') format('embedded-opentype'),
+        url('CeraStencilPRO-Black.woff2') format('woff2'),
+        url('CeraStencilPRO-Black.woff') format('woff'),
+        url('CeraStencilPRO-Black.ttf') format('truetype'),
+        url('CeraStencilPRO-Black.svg#CeraStencilPRO-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarketPro';
+    src: url('MarketPro.eot');
+    src: url('MarketPro.eot?#iefix') format('embedded-opentype'),
+        url('MarketPro.woff2') format('woff2'),
+        url('MarketPro.woff') format('woff'),
+        url('MarketPro.ttf') format('truetype'),
+        url('MarketPro.svg#MarketPro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa Slab Bold Oblique';
+    src: url('NexaSlabBoldOblique.eot');
+    src: url('NexaSlabBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('NexaSlabBoldOblique.woff2') format('woff2'),
+        url('NexaSlabBoldOblique.woff') format('woff'),
+        url('NexaSlabBoldOblique.ttf') format('truetype'),
+        url('NexaSlabBoldOblique.svg#NexaSlabBoldOblique') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa Rust Sans Black Shadow';
+    src: url('NexaRustSans-BlackShadow.eot');
+    src: url('NexaRustSans-BlackShadow.eot?#iefix') format('embedded-opentype'),
+        url('NexaRustSans-BlackShadow.woff2') format('woff2'),
+        url('NexaRustSans-BlackShadow.woff') format('woff'),
+        url('NexaRustSans-BlackShadow.ttf') format('truetype'),
+        url('NexaRustSans-BlackShadow.svg#NexaRustSans-BlackShadow') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa Slab';
+    src: url('NexaSlab-Light.eot');
+    src: url('NexaSlab-Light.eot?#iefix') format('embedded-opentype'),
+        url('NexaSlab-Light.woff2') format('woff2'),
+        url('NexaSlab-Light.woff') format('woff'),
+        url('NexaSlab-Light.ttf') format('truetype'),
+        url('NexaSlab-Light.svg#NexaSlab-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Stencil PRO';
+    src: url('CeraStencilPRO-Regular.eot');
+    src: url('CeraStencilPRO-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CeraStencilPRO-Regular.woff2') format('woff2'),
+        url('CeraStencilPRO-Regular.woff') format('woff'),
+        url('CeraStencilPRO-Regular.ttf') format('truetype'),
+        url('CeraStencilPRO-Regular.svg#CeraStencilPRO-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Condensed Pro';
+    src: url('CeraCondensedPro-Regular.eot');
+    src: url('CeraCondensedPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CeraCondensedPro-Regular.woff2') format('woff2'),
+        url('CeraCondensedPro-Regular.woff') format('woff'),
+        url('CeraCondensedPro-Regular.ttf') format('truetype'),
+        url('CeraCondensedPro-Regular.svg#CeraCondensedPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera PRO';
+    src: url('CeraPRO-Regular.eot');
+    src: url('CeraPRO-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CeraPRO-Regular.woff2') format('woff2'),
+        url('CeraPRO-Regular.woff') format('woff'),
+        url('CeraPRO-Regular.ttf') format('truetype'),
+        url('CeraPRO-Regular.svg#CeraPRO-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa Slab Book';
+    src: url('NexaSlabBookItalic.eot');
+    src: url('NexaSlabBookItalic.eot?#iefix') format('embedded-opentype'),
+        url('NexaSlabBookItalic.woff2') format('woff2'),
+        url('NexaSlabBookItalic.woff') format('woff'),
+        url('NexaSlabBookItalic.ttf') format('truetype'),
+        url('NexaSlabBookItalic.svg#NexaSlabBookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nexa Slab';
+    src: url('NexaSlab-Bold.eot');
+    src: url('NexaSlab-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NexaSlab-Bold.woff2') format('woff2'),
+        url('NexaSlab-Bold.woff') format('woff'),
+        url('NexaSlab-Bold.ttf') format('truetype'),
+        url('NexaSlab-Bold.svg#NexaSlab-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

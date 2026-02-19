@@ -1,0 +1,273 @@
+start log  APi  send Parameter : 10-05-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => palomba
+    [contact->fname] => thibaud
+    [contact->email] => tpalomba@hotmail.com
+    [contact->mobile_phone] => 0675705037
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 66 rue de l'ermitage
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 37100
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => TOURS
+    [contact->iban->iban] => FR7630004022150000035835392
+    [contact->iban->bic] => BNPAFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-04-28
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111002377
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpRfmVnI
+            [mime] => image/jpeg
+            [postname] => BWT.jpg
+        )
+
+)
+start log succes APi  Response :10-05-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8356521752426
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 10-05-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => Peguet
+    [contact->fname] => Luc
+    [contact->email] => contact@certe.fr
+    [contact->mobile_phone] => 0471610482
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => ZA des portes du velay
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 43330
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => PONT SALOMON
+    [contact->iban->iban] => FR7630003018400005099480696
+    [contact->iban->bic] => sogefrpp
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-05-05
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111002450
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpia2Ypa
+            [mime] => application/pdf
+            [postname] => facture.pdf
+        )
+
+)
+start log succes APi  Response :10-05-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8196521772693
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 10-05-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => Peyrat
+    [contact->fname] => bruno
+    [contact->email] => b.peyrat@wanadoo.fr
+    [contact->mobile_phone] => 0649173004
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 9 impasse Sainte-Thérèse
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 34300
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => AGDE
+    [contact->iban->iban] => FR7614518292670180970804076
+    [contact->iban->bic] => FTNOFRP1
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-05-10
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111001817
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpqReIxg
+            [mime] => application/pdf
+            [postname] => aquashop robot.pdf
+        )
+
+)
+start log succes APi  Response :10-05-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8626521981813
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 10-05-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => Taddei
+    [contact->fname] => Jennifer
+    [contact->email] => jrafinesque@outlook.fr
+    [contact->mobile_phone] => 0618790156
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 14 bis chemin des pâquerettes 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 6800
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Cagnes sur mer
+    [contact->iban->iban] => FR7612548940010307555914182
+    [contact->iban->bic] => AXABFRPP
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-05-10
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => NO2108002832
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpwH40fm
+            [mime] => image/jpeg
+            [postname] => 4FE56459-4328-4A10-BAA4-D0C2A7BAEA9C.jpeg
+        )
+
+)
+start log succes APi  Response :10-05-2022
+stdClass Object
+(
+    [consumer] => 
+    [sponsorship_consumer] => 
+    [participation] => 
+    [state] => 
+    [optin] => 
+    [confirmation_message] => 
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+            [0] => RULE_POSTAL_CODE_FORMAT
+        )
+
+    [http_code] => 400
+    [status_code] => Data_exception
+    [object] => 
+)

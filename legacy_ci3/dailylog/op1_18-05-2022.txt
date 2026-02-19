@@ -1,0 +1,198 @@
+start log  APi  send Parameter : 18-05-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => Fernandez
+    [contact->fname] => Nicolas
+    [contact->email] => cancilla11@gmail.com
+    [contact->mobile_phone] => 0615839247
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 3 place de la République
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 11500
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => quillan
+    [contact->iban->iban] => FR7616607000351351864485504
+    [contact->iban->bic] => ccbpfrpp
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-05-17
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111001777
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpIuYRno
+            [mime] => application/pdf
+            [postname] => Reçu_2022-05-18_105540.pdf
+        )
+
+)
+start log succes APi  Response :18-05-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8116528664043
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
+start log  APi  send Parameter : 18-05-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => Mitchell 
+    [contact->fname] => Louise 
+    [contact->email] => harrison_louise@yahoo.com
+    [contact->mobile_phone] => 0629587171
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => 861 Chemin des Issarts 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => Villa Toubabou 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 6410
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => Biot
+    [contact->iban->iban] => FR7630077041921993170030015
+    [contact->iban->bic] => SMCTFR2A
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 1970-01-01
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 26664006
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpUowlyM
+            [mime] => image/jpeg
+            [postname] => 6F6602EB-0E4C-4FD5-AC36-1C0884C6EF1A.jpeg
+        )
+
+)
+start log succes APi  Response :18-05-2022
+stdClass Object
+(
+    [consumer] => 
+    [sponsorship_consumer] => 
+    [participation] => 
+    [state] => 
+    [optin] => 
+    [confirmation_message] => 
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+            [0] => RULE_POSTAL_CODE_FORMAT
+        )
+
+    [http_code] => 400
+    [status_code] => Data_exception
+    [object] => 
+)
+start log  APi  send Parameter : 18-05-2022
+Array
+(
+    [operation->code] => 3001_BWT_LIGNEP_2022
+    [contact->lname] => BONSIRVEN
+    [contact->fname] => Jacques
+    [contact->email] => nicolebonsirven@gmail.com
+    [contact->mobile_phone] => 0689998568
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line4] => Rue Jean de Florette, La Galinière
+    [contact->addresses{MED_SOCIAL_ADDRESS}->line2] => 
+    [contact->addresses{MED_SOCIAL_ADDRESS}->postal_code] => 11610
+    [contact->addresses{MED_SOCIAL_ADDRESS}->city] => PENNAUTIER
+    [contact->iban->iban] => FR7610278089910001561664043
+    [contact->iban->bic] => CMCIFR2A
+    [contact->addresses{MED_SOCIAL_ADDRESS}->country->code] => FR
+    [language->code] => fr-FR
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->purchase_date] => 2022-05-16
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_SERIAL_NUMBER}->order{0}->serial_number] => 2111002527
+    [operations{3001_BWT_LIGNEP_2022}->participation->documents{3001_INVOICE}->order{0}->attachment] => CURLFile Object
+        (
+            [name] => /var/www/clients/client0/web5/tmp/phpECociS
+            [mime] => application/pdf
+            [postname] => Robot bwt mai 2022.pdf
+        )
+
+)
+start log succes APi  Response :18-05-2022
+stdClass Object
+(
+    [required_fields] => Array
+        (
+        )
+
+    [invalid_rules] => Array
+        (
+        )
+
+    [http_code] => 200
+    [status_code] => Ok
+    [object] => 
+    [participation] => stdClass Object
+        (
+            [number] => 8156529045854
+            [start_date] => 
+            [is_private] => 
+            [browser] => 
+            [device] => 
+            [ip_address] => 
+            [datas] => Array
+                (
+                )
+
+            [duplicate_criteria] => 
+            [promo_code] => 
+            [premium] => 
+            [store] => 
+            [shop] => 
+            [documents] => Array
+                (
+                )
+
+            [products] => 
+            [premiums] => 
+            [language] => 
+            [moment] => 
+            [follow_url] => 
+            [state] => 
+            [click_to_opinion] => 
+            [points] => 
+        )
+
+    [participation_state] => STATE_WAITING
+    [consumer_external_id] => 
+    [confirmation_message] => 
+)
