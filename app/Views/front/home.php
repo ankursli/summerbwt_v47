@@ -47,7 +47,6 @@
 							<div class="block-wrap-content">
 								<div class="matchfirsttext">
 									<p class="p1"><?php echo $bloc['date'];?></p>
-									909090
 								</div>
 								<hr>
 								<div class="descblockhome">
