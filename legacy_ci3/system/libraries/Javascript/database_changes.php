@@ -1,3 +1,0 @@
-<?php
-
-$pointer_mrk='';

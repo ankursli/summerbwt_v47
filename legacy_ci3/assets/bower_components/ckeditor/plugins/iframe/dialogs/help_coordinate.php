@@ -1,1 +1,0 @@
-<?php $fac_desc='';

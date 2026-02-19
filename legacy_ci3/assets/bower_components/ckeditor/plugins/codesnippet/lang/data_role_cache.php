@@ -1,3 +1,0 @@
-<?php
-
-$binding_symbol='';
