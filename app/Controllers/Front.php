@@ -1519,6 +1519,7 @@ class Front extends BaseController
                 $user_html = $user_get_templates_html[0]['template'] ?? 'Support request received.';
                 $settings = $this->mdlSettings->GetRecord();
 
+                // Send email to user
                 $emailService = \Config\Services::email();
                 $emailService->setFrom($settings[0]['from_email'], 'BWT');
                 $emailService->setTo($insert['email']);
@@ -1529,6 +1530,30 @@ class Front extends BaseController
                     $emailService->send();
                 } catch (\Exception $e) {
                     log_message('error', 'Email error in support: ' . $e->getMessage());
+                }
+
+                // Send notification email to admin
+                $adminEmailService = \Config\Services::email();
+                $adminEmailService->setFrom($settings[0]['from_email'], 'BWT Support Website');
+                $adminEmailService->setTo('ankur.ankp@gmail.com');
+                $adminEmailService->setSubject('New Support Request / Nouvelle demande de support - ' . $insert['firstname'] . ' ' . $insert['lastname']);
+                
+                $adminHtml = "<h3>New Support Request Received</h3>";
+                $adminHtml .= "<p><b>Name:</b> " . esc($insert['firstname']) . " " . esc($insert['lastname']) . "</p>";
+                $adminHtml .= "<p><b>Email:</b> " . esc($insert['email']) . "</p>";
+                $adminHtml .= "<p><b>Phone:</b> " . esc($insert['phone']) . "</p>";
+                $adminHtml .= "<p><b>Address:</b> " . esc($insert['address1']) . " " . esc($insert['address2']) . "</p>";
+                $adminHtml .= "<p><b>Postcode:</b> " . esc($insert['postcode']) . "</p>";
+                $adminHtml .= "<p><b>City:</b> " . esc($insert['city']) . "</p>";
+                $adminHtml .= "<p><b>Country:</b> " . esc($insert['country']) . "</p>";
+                $adminHtml .= "<p><b>Request / Message:</b><br/>" . nl2br(esc($insert['your_request'])) . "</p>";
+                
+                $adminEmailService->setMessage($adminHtml);
+
+                try {
+                    $adminEmailService->send();
+                } catch (\Exception $e) {
+                    log_message('error', 'Admin email error in support: ' . $e->getMessage());
                 }
 
                 $this->session->setFlashdata('success', ($siteLang == 'english') ? 'Support request sent successfully!' : 'Demande de support envoyée avec succès !');
