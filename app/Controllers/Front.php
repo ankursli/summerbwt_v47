@@ -297,6 +297,7 @@ class Front extends BaseController
                 $user_html = str_replace('{resetpasswordtoken}', $resetpasswordtoken, $user_html);
 
                 $emailService = \Config\Services::email();
+                $emailService->setMailType('html');
                 $emailService->setFrom($settings[0]['from_email'] ?? 'noreply@bwt.com', 'BWT');
                 $emailService->setTo($email);
                 $emailService->setSubject($user_get_templates_html[0]['template_subject'] ?? 'Reset Password');
@@ -532,6 +533,7 @@ class Front extends BaseController
                 $settings = $this->mdlSettings->GetRecord();
 
                 $emailService = \Config\Services::email();
+                $emailService->setMailType('html');
                 $emailService->setFrom($settings[0]['from_email'] ?? 'noreply@bwt.com', 'BWT');
                 $emailService->setTo($request->getPost('email'));
                 $emailService->setSubject($user_get_templates_html[0]['template_subject'] ?? 'Welcome');
@@ -965,6 +967,7 @@ class Front extends BaseController
     public function sendMail()
     {
         $emailService = \Config\Services::email();
+        $emailService->setMailType('html');
 
         try {
             $emailService->setFrom('operations.bwt@phare-west.fr', 'Your Name');
@@ -1286,6 +1289,7 @@ class Front extends BaseController
                 $settings = $this->mdlSettings->GetRecord();
 
                 $emailService = \Config\Services::email();
+                $emailService->setMailType('html');
                 $emailService->setFrom($settings[0]['from_email'], 'BWT');
                 $emailService->setTo($email);
                 $emailService->setSubject($user_get_templates_html[0]['template_subject'] ?? 'BWT Draw Confirmation');
@@ -1521,6 +1525,7 @@ class Front extends BaseController
 
                 // Send email to user
                 $emailService = \Config\Services::email();
+                $emailService->setMailType('html');
                 $emailService->setFrom($settings[0]['from_email'], 'BWT');
                 $emailService->setTo($insert['email']);
                 $emailService->setSubject($user_get_templates_html[0]['template_subject'] ?? 'Support Confirmation');
@@ -1584,6 +1589,7 @@ class Front extends BaseController
 
             foreach ($proofs as $proof) {
                 $emailService = \Config\Services::email();
+                $emailService->setMailType('html');
                 $emailService->setFrom($settings[0]['from_email'], 'BWT');
                 $emailService->setTo($proof['email']);
                 $emailService->setSubject($template_subject);
@@ -1622,6 +1628,7 @@ class Front extends BaseController
 
             foreach ($draws as $draw) {
                 $emailService = \Config\Services::email();
+                $emailService->setMailType('html');
                 $emailService->setFrom($settings[0]['from_email'], 'BWT');
                 $emailService->setTo($draw['email']);
                 $emailService->setSubject($template_subject);
