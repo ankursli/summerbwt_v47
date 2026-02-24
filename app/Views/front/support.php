@@ -106,7 +106,7 @@
             </form>
           </div>
           <!-- /.box -->
-		  <?php if(!empty($getsupports)){?>
+		  <?php /* if(!empty($getsupports)){?>
 		  <div class="col-sm-12">
 			<table id="viewuser" class="table table-bordered table-striped">
 				<thead>
@@ -157,7 +157,7 @@
 				</tfoot>
 			</table>
 		  </div>
-		  <?php } ?>
+		  <?php } */ ?>
         </div>
         <!-- /.col -->
       </div>
