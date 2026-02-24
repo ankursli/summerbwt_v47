@@ -1534,6 +1534,7 @@ class Front extends BaseController
 
                 // Send notification email to admin
                 $adminEmailService = \Config\Services::email();
+                $adminEmailService->setMailType('html');
                 $adminEmailService->setFrom($settings[0]['from_email'], 'BWT Support Website');
                 $adminEmailService->setTo('ankur.ankp@gmail.com');
                 $adminEmailService->setSubject('New Support Request / Nouvelle demande de support - ' . $insert['firstname'] . ' ' . $insert['lastname']);
