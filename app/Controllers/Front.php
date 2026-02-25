@@ -400,9 +400,17 @@ class Front extends BaseController
             ]);
 
             if (!$this->validation->withRequest($request)->run()) {
+                foreach ($this->validation->getErrors() as $k => $v) {
+                    $this->session->setFlashdata('error_' . $k, $v);
+                }
+                $sidemenu_without_login = $this->mdlMenu->GetRecordMenus(['menu_id' => 'sidebar_menu_without']);
+                $footermenu = $this->mdlMenu->GetRecordMenus(['menu_id' => 'footer_menu']);
+
                 $data = [
                     'success' => $this->session->getFlashdata('success'),
                     'error' => $this->session->getFlashdata('error'),
+                    'sidemenu' => $sidemenu_without_login,
+                    'footermenu' => $footermenu,
                     'main_content' => 'front/login'
                 ];
                 return $this->renderTemplate($data);
@@ -465,7 +473,7 @@ class Front extends BaseController
 
         // Set validation rules based on language
         $rules = [
-            'email' => 'required|valid_email|is_unique[users.Email]',
+            'email' => 'required|valid_email|is_unique[users.email]',
             'password' => 'required',
             'firstname' => 'required',
             'lastname' => 'required',
@@ -491,9 +499,17 @@ class Front extends BaseController
         }
 
         if (!$this->validation->withRequest($request)->run()) {
+            foreach ($this->validation->getErrors() as $k => $v) {
+                $this->session->setFlashdata('error_' . $k, $v);
+            }
+            $sidemenu_without_login = $this->mdlMenu->GetRecordMenus(['menu_id' => 'sidebar_menu_without']);
+            $footermenu = $this->mdlMenu->GetRecordMenus(['menu_id' => 'footer_menu']);
+
             $data = [
                 'success' => $this->session->getFlashdata('success'),
                 'error' => $this->session->getFlashdata('error'),
+                'sidemenu' => $sidemenu_without_login,
+                'footermenu' => $footermenu,
                 'main_content' => 'front/register'
             ];
             return $this->renderTemplate($data);
