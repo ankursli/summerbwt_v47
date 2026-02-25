@@ -77,7 +77,7 @@ $lastparam = end($parts);
     <div class="waiting-wrapper" style="display:none">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<img class="waiting-overlay-logo" src="<?php echo base_url();?>assets/image/logo.png" alt="">
+				<img class="waiting-overlay-logo" src="<?php echo base_url();?>assets/image/logo-white.svg" alt="">
 			</div>
 			<div class="empty-spacer"></div>
 			<div class="col-md-12 text-center logomobile">
@@ -107,7 +107,7 @@ $lastparam = end($parts);
 							<!-- Logo -->
 							<div class="col-md-3 text-right">
 								<a class="nav-brand white" href="<?php echo base_url();?>">
-									<img src="<?php echo base_url();?>assets/image/logo.png" alt="">
+									<img src="<?php echo base_url();?>assets/image/logo-white.svg" alt="">
 								</a>
 								<a class="nav-brand blue" href="<?php echo base_url();?>">
 									<img src="<?php echo base_url();?>assets/image/logo.svg" alt="">

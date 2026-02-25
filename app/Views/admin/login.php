@@ -23,7 +23,7 @@
 <body class="hold-transition login-page">
 	<div class="login-box">
 		<div class="login-logo">
-			<a href="<?php echo base_url('admin');?>"><img src="<?php echo base_url('assets/image/logo.png');?>" alt="BWT" width="300px" height="100px"></a>
+			<a href="<?php echo base_url('admin');?>"><img src="<?php echo base_url('assets/image/logo-white.svg');?>" alt="BWT" width="300px" height="100px"></a>
 		</div>
 		<!-- /.login-logo -->
 		<div class="login-box-body">

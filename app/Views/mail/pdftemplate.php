@@ -24,7 +24,7 @@
 	<tbody width="100%">
 	<tr width="100%">
 		<td width="50%" class="ticket-logo" style="width:50%;text-align: center;margin-top: -65px;padding-bottom: 30px;" align="left">
-		<img class="logo" style="width: 400px;float:left;height: auto;text-align:left;background-color: #fff;padding: 0 15px;" src="assets/image/logo.png" alt="logo">	
+		<img class="logo" style="width: 400px;float:left;height: auto;text-align:left;background-color: #fff;padding: 0 15px;" src="assets/image/logo-white.svg" alt="logo">	
 		</td>
 		<td width="50%" class="satisfied-logo" style="width:50%;padding-bottom: 30px;" align="right"> 
 		<img class="summer" style="width: auto;float:right;height: auto; text-align:right; background-color: #fff;padding: 0 15px;" src="assets/image/summer.png" alt="summer">

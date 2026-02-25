@@ -114,7 +114,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0066b3', end
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-        	           <img class="logo" src="<?php echo base_url('assets/image/logo.png');?>" alt="logo">
+        	           <img class="logo" src="<?php echo base_url('assets/image/logo-white.svg');?>" alt="logo">
                     </div>
                 </div>
             </div>

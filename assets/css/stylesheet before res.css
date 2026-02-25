@@ -1,9 +1,9 @@
-*{outline:none !important; box-sizing:border-box;font-family: 'Cera Pro';}
+*{outline:none !important; box-sizing:border-box;font-family: ''Font BWT Soliden'';}
 ul, ol {padding:0px; margin:0px;}
 ul li, ol li {list-style-type: none; margin:0; padding:0;}
 p,h1,h2,h3,h4,h5,h6{padding:0; margin:0;}
 a,a:hover,a:focus,a:active {outline: none !important; text-decoration: none;}
-body{font-family: 'Cera Pro'; font-size:14px;font-weight: normal; font-style: normal;}
+body{font-family: ''Font BWT Soliden''; font-size:14px;font-weight: normal; font-style: normal;}
 img{max-width: 100%; display: block;}
 
 @media(min-width:1360px){.container{max-width:1200px; margin:auto;}}
@@ -382,7 +382,7 @@ section.three-block {
     text-transform: uppercase;
     font-weight: bold;
     line-height: 60px;
-    font-family: 'Cera Stencil PRO Trial';
+    font-family: ''Font BWT Soliden'';
 }
 .more-text {
     padding: 5px 0;
@@ -556,7 +556,7 @@ section.odrv-block {
 .odr-in-block .date-box h5 {
     font-size: 41px;
     font-style: normal;
-    font-family: 'Cera Stencil PRO Trial';
+    font-family: ''Font BWT Soliden'';
 }
 .odr-in-block .date-box p {
     font-size: 27px;

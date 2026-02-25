@@ -70,33 +70,33 @@
 
 							<p><?php echo lang('Label.label_Pour_lachat_dun_robot'); ?>
 
-							<p><?php echo lang('Label.label_for_the_purchase_of_the_ref_p600'); ?> :
+							<!-- <p><?php echo lang('Label.label_for_the_purchase_of_the_ref_p600'); ?> :
 								<span class="m-font-30"><?php echo lang('Label.label_150_€_discount'); ?></span>
+							</p> -->
+
+							<p>
+								• <?php echo lang('Label.label_150_€_discount'); ?>
 							</p>
 
-							<p><?php echo lang('Label.label_for_the_purchase_of_the_ref_p500'); ?> :
-								<span class="m-font-30"><?php echo lang('Label.label_100_€_discount'); ?></span>
+							<p>
+								• <?php echo lang('Label.label_100_€_discount'); ?>
 							</p>
 
-							<p><?php echo lang('Label.label_for_the_purchase_of_the_ref_p400'); ?> :
-								<span class="m-font-30"><?php echo lang('Label.label_50_€_discount'); ?></span>
+							<p>
+								• <?php echo lang('Label.label_50_€_discount'); ?>
 							</p>
+<br/>
+							<p><?php echo lang('Label.label_Pour_lachat_dun_robotp2'); ?>
 
-							<p><?php echo lang('Label.label_for_the_purchase_of_the_ref_250_cosmy'); ?> :
-								<span class="m-font-30"><?php echo lang('Label.label_60_€_discount'); ?></span>
+							<p>
+								• <?php echo lang('Label.label_80_€_discount'); ?>
 							</p>
-
-							<p><?php echo lang('Label.label_for_the_purchase_of_the_ref_200_cosmy'); ?> :
-								<span class="m-font-30"><?php echo lang('Label.label_50_€_discount'); ?></span>
+							<p>
+								• <?php echo lang('Label.label_70_€_discount'); ?>
 							</p>
-
-							<p><?php echo lang('Label.label_for_the_purchase_of_the_ref_150_cosmy'); ?> :
-								<span class="m-font-30"><?php echo lang('Label.label_40_€_discount'); ?></span>
+							<p>
+								• <?php echo lang('Label.label_60_€_discount'); ?>
 							</p>
-
-							<!--	<p><?php echo lang('Label.label_for_the_purchase_of_the_ref_100_cosmy'); ?> : 
-							<span class="m-font-30"><?php echo lang('Label.label_30_€_discount'); ?></span></p> -->
-
 						</div>
 
 
@@ -268,7 +268,10 @@
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6 ">
-					<div class="offer-right-section robot-right-section clearfix"></div>
+					<div class="offer-right-section robot-right-section clearfix">
+
+					
+					</div>
 				</div>
 			</div>
 			<div class="row">
@@ -283,23 +286,23 @@
 						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img class="d-block " src="<?php echo base_url(); ?>/assets/image/robots/1_F1_R.png" alt="F1 R">
+									<img class="d-block " src="<?php echo base_url(); ?>/assets/image/robots/f1-rrobot-electrique20250006.webp" alt="F1 R">
 								</div>
 								<div class="carousel-item">
-									<img class="d-block " src="<?php echo base_url(); ?>/assets/image/robots/2_F1_RXT.png" alt="F1 RXT">
+									<img class="d-block " src="<?php echo base_url(); ?>/assets/image/robots/f1-rxrobot-electrique20250006.webp" alt="F1 RXT">
 								</div>
 								<div class="carousel-item">
-									<img class="d-block " src="<?php echo base_url(); ?>/assets/image/robots/3_F1_RX_.png" alt="F1 RX">
+									<img class="d-block " src="<?php echo base_url(); ?>/assets/image/robots/f1-rxtrobot-electrique202506.webp" alt="F1 RX">
 								</div>
 								<div class="carousel-item">
-									<img class="d-block " src="<?php echo base_url(); ?>/assets/image/robots/4_F1_Sonic Pro_.png" alt="F1 Socnic Pro">
+									<img class="d-block " src="<?php echo base_url(); ?>/assets/image/robots/f1-sonic-prorobot-electrique2025-04.webp" alt="F1 Socnic Pro">
 								</div>
-								<div class="carousel-item">
+								<!-- <div class="carousel-item">
 									<img class="d-block " src="<?php echo base_url(); ?>/assets/image/robots/Aquabot_Wave_2025.png" alt="Aquabot Wave">
 								</div>
 								<div class="carousel-item">
 									<img class="d-block " src="<?php echo base_url(); ?>/assets/image/robots/Aquabot_Wave_Pro_2025.png" alt="Aquabot Wave Pro">
-								</div>
+								</div> -->
 							</div>
 							<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 								<span class="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -1,7 +1,7 @@
 *{
     outline:none !important;
      box-sizing:border-box;
-    font-family: 'Cera PRO';
+    font-family: ''Font BWT Soliden'';
 }
  ul, ol {
     padding:0px;
@@ -21,7 +21,7 @@
      text-decoration: none;
 }
  body{
-    font-family: 'Cera PRO';
+    font-family: ''Font BWT Soliden'';
      font-size:14px;
     font-weight: normal;
      font-style: normal;
@@ -441,7 +441,7 @@
      text-transform: uppercase;
      font-weight: bold;
      line-height: 60px;
-     font-family: 'Cera Stencil PRO';
+     font-family: ''Font BWT Soliden'';
 }
  .more-text {
      padding: 5px 0;
@@ -609,7 +609,7 @@
  .odr-in-block .date-box h5 {
      font-size: 41px;
      font-style: normal;
-     font-family: 'Cera Stencil PRO';
+     font-family: ''Font BWT Soliden'';
 }
  .odr-in-block .date-box p {
      font-size: 27px;
@@ -627,7 +627,7 @@
      float: left;
 }
 .support h4.box-title ,.editprofile h4.box-title  {
-    font-family: 'Cera Stencil PRO';
+    font-family: ''Font BWT Soliden'';
     font-weight: 900;
     text-transform: uppercase;
     font-size: 35px;
@@ -784,7 +784,7 @@
      font-weight: bold;
 }
  .form-main .form-group label span {
-     font-family: 'Cera PRO';
+     font-family: ''Font BWT Soliden'';
      font-weight: 700;
 }
  .form-main .btn-primary {
@@ -1574,7 +1574,7 @@
     }
      .mobileofferfrom .form-title h2 {
          color: #245f8e !important;
-        font-family: 'Cera PRO' !important;
+        font-family: ''Font BWT Soliden'' !important;
         font-size: 30px!important;
         font-weight: 400!important;
         line-height: 40px!important;
@@ -1612,7 +1612,7 @@
         padding-bottom: 50px;
     }
      .robot-description p {
-        font-family: 'Cera PRO';
+        font-family: ''Font BWT Soliden'';
          font-size: 30px;
          font-weight: bold;
          line-height: 36px;
@@ -1638,7 +1638,7 @@
          font-weight: 400!important;
          line-height: 40px!important;
          text-align: center!important;
-         font-family: 'Cera PRO' !important;
+         font-family: ''Font BWT Soliden'' !important;
     }
      .drewimgtop{
          margin-top:110px !important;
@@ -1966,7 +1966,7 @@
 }
  .home-text{
     color: #ffffff;
-    font-family: Avallon;
+    font-family: 'Font BWT Soliden';
     font-size: 60px;
     line-height: 46px;
     padding-top:50px;
@@ -1978,7 +1978,7 @@
  
 .footer-link ul li a {
     color: #6188a4 !important;
-    font-family: "Cera PRO" !important;
+    font-family: 'Font BWT Soliden' !important;
     font-size: 18px !important;
     font-weight: 400 !important;
     line-height: 23px !important;
@@ -1991,7 +1991,7 @@
  .block-number{
     opacity: 0.4;
     color: #e6006b;
-    font-family: 'Cera Stencil PRO';
+    font-family: ''Font BWT Soliden'';
     font-weight: 900;
     font-size: 237px;
     line-height: 280px;
@@ -2014,7 +2014,7 @@
  .block-wrap .p1 {
   
     color: #ffffff;
-    font-family: "Cera PRO";
+    font-family: 'Font BWT Soliden';
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
@@ -2022,23 +2022,23 @@
 }
 h3.matchh3, h3.matchh3 span {
     color: #ffffff;
-    font-family: "Cera Stencil PRO";
+    font-family: 'Font BWT Soliden';
     font-size: 43px;
     font-weight: 900;
     line-height: 54px !important;
     text-transform: uppercase;
 }
 .block-wrap .p2 {
-    font-family: "Cera PRO";
+    font-family: 'Font BWT Soliden';
     font-size: 17px;
     font-weight: 700;
     line-height: 21px;
     text-transform: uppercase;
 }
- .block-wrap .p3{ font-size: 20px; line-height: 21px; text-transform: uppercase;     font-weight: bold;font-family: 'Cera Stencil PRO';}
+ .block-wrap .p3{ font-size: 20px; line-height: 21px; text-transform: uppercase;     font-weight: bold;font-family: ''Font BWT Soliden'';}
  
  .block-wrap hr{border: 1px solid #fff;}
- .block-button{ background: #fff; font-size: 18px; line-height: 23px; margin-top: 15px; padding: 5px 20px; min-width: 220px; text-transform: uppercase;font-family: 'Cera PRO';
+ .block-button{ background: #fff; font-size: 18px; line-height: 23px; margin-top: 15px; padding: 5px 20px; min-width: 220px; text-transform: uppercase;font-family: ''Font BWT Soliden'';
     font-weight: 700;border-radius: 0px;}
    
  .first-block .block-button{  color: #f5b5ca;}
@@ -2057,12 +2057,12 @@ h3.matchh3, h3.matchh3 span {
  .refund-section1.inner-page, .treatment-section1.inner-page, .offer-section1.inner-page {  margin-top: 90px;}
  .wrap-container{padding: 0.5em 20px;}
  .inner-header { position: relative; padding-top: 120px; padding-top: 60px; padding-bottom: 20px;}
- .inner-header .block-number { opacity: 0.2566034;  color: #f5b5ca; font-size: 217px; line-height: 155px; left: 0; top: -35px;font-family: 'Cera Stencil PRO';
+ .inner-header .block-number { opacity: 0.2566034;  color: #f5b5ca; font-size: 217px; line-height: 155px; left: 0; top: -35px;font-family: ''Font BWT Soliden'';
     font-weight: 900;}
- .inner-header h3{ color: #f5b5ca; font-size: 30px; line-height: 40px;    font-family: 'Cera PRO';
+ .inner-header h3{ color: #f5b5ca; font-size: 30px; line-height: 40px;    font-family: ''Font BWT Soliden'';
     font-weight: 400;}
  .inner-header h2{ 
-     color: #f5b5ca;font-size: 43px;  line-height: 40px;  text-transform: uppercase;font-family: 'Cera Stencil PRO';
+     color: #f5b5ca;font-size: 43px;  line-height: 40px;  text-transform: uppercase;font-family: ''Font BWT Soliden'';
     font-weight: 900;
 }
  .offer-content-inner{ background: #f5b5ca; padding: 30px 90px 50px 40px; color: #fff; position: relative; z-index: 3;}
@@ -2070,13 +2070,13 @@ h3.matchh3, h3.matchh3 span {
  .offer-content-inner .date-box p{
     font-size: 26px;
     line-height: 43px;
-     font-family: 'Cera PRO';
+     font-family: ''Font BWT Soliden'';
     font-weight: 400;
 }
 .offer-content-inner .offer-text h1 ,.offer-content-inner .offer-text h1 span{
   
     color: #ffffff;
-    font-family: "Cera PRO";
+    font-family: 'Font BWT Soliden';
     font-size: 45px;
     font-weight: 700;
     line-height: 57px;
@@ -2086,7 +2086,7 @@ h3.matchh3, h3.matchh3 span {
 .offer-content-inner .offer-text h1 span.block-percentage{display: inline-block;}
 .offer-content-inner .more-text {
     color: #ffffff;
-    font-family: "Cera PRO";
+    font-family: 'Font BWT Soliden';
     font-size: 30px;
     font-weight: 700;
     line-height: 38px;
@@ -2098,7 +2098,7 @@ h3.matchh3, h3.matchh3 span {
 
  .offer-content-inner .offer-text h1 span.block-percentage{ font-size: 100px; line-height: 80px;padding-left: 20px;display: inline-block;}
   .offer-content-inner .price-odr p,.offer-content-inner .price-odr span{
-     font-family: 'Cera PRO';
+     font-family: ''Font BWT Soliden'';
     font-weight: 500;
     font-size: 22px;
     font-weight: 400;
@@ -2109,12 +2109,12 @@ h3.matchh3, h3.matchh3 span {
  .offer-content-inner .more-text p{
     font-size: 30px;
     line-height: 40px;
-    font-family: 'Cera PRO';
+    font-family: ''Font BWT Soliden'';
     font-weight: 700;
 }
 .offer-content-inner .price-odr p {
     color: #ffffff;
-    font-family: "Cera PRO" !important;
+    font-family: 'Font BWT Soliden' !important;
     font-size: 22px !important;
     font-weight: 700 !important;
     line-height: 28px !important;
@@ -2122,7 +2122,7 @@ h3.matchh3, h3.matchh3 span {
 }
 .offer-content-inner .price-odr span{
     color: #ffffff;
-    font-family: "Cera PRO";
+    font-family: 'Font BWT Soliden';
     font-size: 43px;
     font-weight: 700;
     line-height: 54px;
@@ -2130,7 +2130,7 @@ h3.matchh3, h3.matchh3 span {
 }
 .btn-condition a.btn.btn-primary.btn-block {
     color: #f5b5ca;
-    font-family: "Cera PRO";
+    font-family: 'Font BWT Soliden';
     font-size: 18px;
     font-weight: 700;
     line-height: 23px;
@@ -2154,7 +2154,7 @@ h3.matchh3, h3.matchh3 span {
  .offer-left-section{padding-top: 40px;}
  .offer-form-inner .form-title h2 {
     color: #ffffff;
-    font-family: "Cera PRO";
+    font-family: 'Font BWT Soliden';
     font-size: 37px;
     font-weight: 700;
     line-height: 47px;
@@ -2172,13 +2172,13 @@ h3.matchh3, h3.matchh3 span {
 }
  .offer-form-inner .form-main .form-group label{
       color: #6188a4;
-        font-family: 'Cera PRO';
+        font-family: ''Font BWT Soliden'';
         font-weight: 700;
         font-size: 23px;
         line-height: 29px;
 }
  .offer-form-inner .form-main .form-group label.custom-file-label{
-    font-family: "Gotham-Bold";
+    font-family: 'Font BWT Soliden';
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
@@ -2188,7 +2188,7 @@ h3.matchh3, h3.matchh3 span {
     background-color: #6188a4;
    
     color: #ffffff;
-  font-family: "Cera PRO";
+  font-family: 'Font BWT Soliden';
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;
@@ -2196,7 +2196,7 @@ h3.matchh3, h3.matchh3 span {
 }
  .offer-form-inner .form-main .form-group small#emailHelp{
     color: #6188a4 !important;
-     font-family: 'Cera PRO';
+     font-family: ''Font BWT Soliden'';
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
@@ -2209,7 +2209,7 @@ h3.matchh3, h3.matchh3 span {
  .offer-form-inner .form-suggestion-proof {
     padding-left: 0px;
     color: #ffffff;
-     font-family: 'Cera PRO';
+     font-family: ''Font BWT Soliden'';
     font-weight: 700;
     font-size: 19px;
     line-height: 25px;
@@ -2255,7 +2255,7 @@ h3.matchh3, h3.matchh3 span {
 }
  .offer-right-section .addres-block h2,.offer-right-section .addres-block a,.offer-right-section .addres-block p{
     font-size: 23px;
-    font-family: 'Cera PRO';
+    font-family: ''Font BWT Soliden'';
     font-weight: 700;
     line-height: 30px;
     color:#245F8E;
@@ -2280,7 +2280,7 @@ h3.matchh3, h3.matchh3 span {
 }
  .offer-right-section .robot-description p{
     color: #245f8e;
-     font-family: 'Cera PRO';
+     font-family: ''Font BWT Soliden'';
     font-weight: 700;
     font-size: 22px;
     line-height: 31px;
@@ -2447,7 +2447,7 @@ div#silderroboto {
 .block-button{ font-size:13px;}
 h3.matchh3, h3.matchh3 span {
     color: #ffffff;
-    font-family: "Cera Stencil PRO";
+    font-family: 'Font BWT Soliden';
     font-size: 34px;
     font-weight: 900;
     line-height: 40px;
@@ -2496,7 +2496,7 @@ h3.matchh3, h3.matchh3 span {
 	#homesectionf {float: unset !important;}
     h3.matchh3, h3.matchh3 span {
         color: #ffffff;
-        font-family: "Cera Stencil PRO";
+        font-family: 'Font BWT Soliden';
         font-size: 30px;
         font-weight: 900;
         line-height: 45px;
@@ -2644,7 +2644,7 @@ h3.matchh3, h3.matchh3 span{ line-height:54px !important;}
 }
 .form-control {
     color: #6188a4 !important;
-    font-family: "Cera PRO" !important;
+    font-family: 'Font BWT Soliden' !important;
     font-size: 16px !important;
     font-weight: 400 !important;
     line-height: 20px !important;
