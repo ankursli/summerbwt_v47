@@ -110,7 +110,7 @@ $lastparam = end($parts);
 									<img src="<?php echo base_url();?>assets/image/logo.png" alt="">
 								</a>
 								<a class="nav-brand blue" href="<?php echo base_url();?>">
-									<img src="<?php echo base_url();?>assets/image/logo2.png" alt="">
+									<img src="<?php echo base_url();?>assets/image/logo.svg" alt="">
 								</a>
 							</div>
 

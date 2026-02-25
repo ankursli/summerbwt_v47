@@ -42,7 +42,7 @@
 						
 
 							<li class="showinmobile"><a href="<?php echo base_url();?>" target="_blank" title="<?php echo lang('Label.label_the_bwt_group');?>" target="_blank">
-							<img src="<?php echo base_url();?>assets/image/logo2.png" alt="">
+							<img src="<?php echo base_url();?>assets/image/logo.svg" alt="">
 							</a></li>
 							<li><a target="_blank"  href="https://www.bwt.fr/fr/Pages/default.aspx"><?php echo lang('Label.label_the_bwt_group');?></a></li>
 							<li><a target="_blank" href="<?php echo $clink;?>"><?php echo lang('Label.label_conditions_of_participation');?></a></li>

@@ -34,7 +34,7 @@
 						
 
 							<li class="showinmobile"><a href="<?php echo base_url();?>" target="_blank" title="<?php echo lang('Label.label_the_bwt_group');?>" target="_blank">
-							<img src="<?php echo base_url();?>assets/image/logo2.png" alt="">
+							<img src="<?php echo base_url();?>assets/image/logo.svg" alt="">
 							</a></li>
 							<?php 
 											$json_decode = json_decode($footermenu['menu_items'], true);
