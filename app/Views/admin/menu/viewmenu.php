@@ -41,7 +41,7 @@
 								foreach($menus as $item) {
 									$label = $item['link_text'] ?? ($item['label'] ?? '');
 									$link  = $item['url'] ?? ($item['link'] ?? '');
-									echo "<li class='ui-state-default'>" . htmlspecialchars($label) . " => " . htmlspecialchars($link) . "<span>X</span></li>";
+									echo "<li class='ui-state-default' data-label='" . htmlspecialchars($label, ENT_QUOTES) . "' data-link='" . htmlspecialchars($link, ENT_QUOTES) . "'>" . htmlspecialchars($label) . " => " . htmlspecialchars($link) . "<span>X</span></li>";
 								}
 							}
 							?>	
@@ -54,7 +54,7 @@
 			<div style="display: none;">	
 				<form method="post" action="<?php echo base_url('admin/menu/savemenu');?>">
 					<input type="text" name="menu_id" id="menu_id" value="<?php echo htmlspecialchars($menu_id ?? 'sidebar_menu');?>">
-					<input type="text" name="menuitems" id="menuitems">
+					<div id="menuitems_container"></div>
 					<button class="triggersave">Save</button>
 				</form>
 			</div>

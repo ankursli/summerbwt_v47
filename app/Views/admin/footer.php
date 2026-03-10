@@ -67,7 +67,7 @@
 		if(link == "" || label == ""){
 			alert("please insert label and link to add menu item");
 		}else{
-			html = '<li class="ui-state-default">' + label + ' => '+ link +'<span>X</span></li>';
+			html = '<li class="ui-state-default" data-label="'+label+'" data-link="'+link+'">' + label + ' => '+ link +'<span>X</span></li>';
 			$(".menu_item_url").val('');
 			$(".menu_item_label").val('');
 			$( "#sortable" ).append(html);
@@ -76,11 +76,12 @@
 	});
 
 	$( ".save_menu" ).click(function(){
-		var menu_item = [];
+		var inputs = '';
 		$("#sortable li").each(function(){
-			menu_item.push($(this).html());
+			inputs += '<input type="hidden" name="link_text[]" value="' + $(this).attr("data-label") + '">';
+			inputs += '<input type="hidden" name="url[]" value="' + $(this).attr("data-link") + '">';
 		})
-		$("#menuitems").val(menu_item);
+		$("#menuitems_container").html(inputs);
 		$(".triggersave").trigger("click");
 	});
 
