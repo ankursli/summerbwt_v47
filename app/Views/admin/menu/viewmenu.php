@@ -54,6 +54,7 @@
 			<div style="display: none;">	
 				<form method="post" action="<?php echo base_url('admin/menu/savemenu');?>">
 					<input type="text" name="menu_id" id="menu_id" value="<?php echo htmlspecialchars($menu_id ?? 'sidebar_menu');?>">
+					<input type="hidden" name="menuitems" id="menuitems">
 					<div id="menuitems_container"></div>
 					<button class="triggersave">Save</button>
 				</form>

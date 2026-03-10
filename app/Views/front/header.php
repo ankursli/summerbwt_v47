@@ -233,13 +233,19 @@ $lastparam = end($parts);
 										
 										<?php 
 										$json_decode = json_decode($sidemenu['menu_items'], true);
-										foreach($json_decode as $menu){ 
-											$link = (strpos($menu['link'], 'http') === 0) ? $menu['link'] : base_url(ltrim($menu['link'], '/'));
+										if (is_array($json_decode)) {
+											foreach($json_decode as $menu){ 
+												$linkVal = $menu['url'] ?? ($menu['link'] ?? '');
+												$labelVal = $menu['link_text'] ?? ($menu['label'] ?? '');
+												$link = (strpos($linkVal, 'http') === 0) ? $linkVal : base_url(ltrim($linkVal, '/'));
 										?>
-										 <li class="<?php echo ($url==$menu['link']) ? 'active':'';?> menu2">
-											<a href="<?php echo $link; ?>"><?php echo $menu['label']; ?></a>
+										 <li class="<?php echo ($url==$linkVal) ? 'active':'';?> menu2">
+											<a href="<?php echo $link; ?>"><?php echo $labelVal; ?></a>
 										</li>
-										<?php } ?>
+										<?php 
+											}
+										} 
+										?>
 
 										<!-- <li class="<?php echo ($lastparam=='modifier-mon-profil') ? 'active':'';?>">
 											<a href="<?php echo base_url('modifier-mon-profil');?>">

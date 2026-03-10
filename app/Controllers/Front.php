@@ -689,7 +689,7 @@ class Front extends BaseController
                 'error' => $this->session->getFlashdata('error'),
                 'main_content' => 'front/proof_of_purchase',
                 'getproofs' => $getproofs ?? [],
-                'sidemenu' => $sidemenu,
+                'sidemenu' => !empty($frontUser) ? $sidemenu : $sidemenu_without_login,
                 'footermenu' => $footermenu,
                 'anothergetstores' => $anothergetstores,
                 'getstores' => $getstores,

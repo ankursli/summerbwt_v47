@@ -37,12 +37,18 @@
 							<img src="<?php echo base_url();?>assets/image/logo.svg" alt="">
 							</a></li>
 							<?php 
-											$json_decode = json_decode($footermenu['menu_items'], true);
+										$json_decode = json_decode($footermenu['menu_items'], true);
+										if (is_array($json_decode)) {
 											foreach($json_decode as $menu){ 
-												$link = (strpos($menu['link'], 'http') === 0) ? $menu['link'] : base_url(ltrim($menu['link'], '/'));
+												$linkVal = $menu['url'] ?? ($menu['link'] ?? '');
+												$labelVal = $menu['link_text'] ?? ($menu['label'] ?? '');
+												$link = (strpos($linkVal, 'http') === 0) ? $linkVal : base_url(ltrim($linkVal, '/'));
 											?>
-							<li><a target="_blank"  href="<?php echo $link;?>"><?php echo $menu['label'];?></a></li>
-							<?php } ?>
+							<li><a target="_blank"  href="<?php echo $link;?>"><?php echo $labelVal;?></a></li>
+							<?php 
+											}
+										} 
+							?>
 							<!-- <li><a target="_blank"  href="https://www.bwt.fr/fr/Pages/default.aspx"><?php echo lang('Label.label_the_bwt_group');?></a></li>
 							<li><a target="_blank" href="<?php echo $clink;?>"><?php echo lang('Label.label_conditions_of_participation');?></a></li>
 							<li><a target="_blank" href="<?php echo $reules; ?>"><?php echo lang('Label.label_reglementlink_data');?></a></li>

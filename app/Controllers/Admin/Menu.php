@@ -55,17 +55,40 @@ class Menu extends BaseController
         if (!$this->requireLogin()) return redirect()->to(base_url('admin'));
 
         $menuId = $this->request->getPost('menu_id') ?? 'sidebar_menu';
-        $urls   = $this->request->getPost('url') ?? [];
-        $texts  = $this->request->getPost('link_text') ?? [];
+        $urls   = $this->request->getPost('url');
+        $texts  = $this->request->getPost('link_text');
 
         // Build menu items array
         $menuItems = [];
-        foreach ($urls as $key => $url) {
-            if (empty($url)) continue;
-            $menuItems[] = [
-                'url'       => $url,
-                'link_text' => $texts[$key] ?? '',
-            ];
+        
+        // Let's add fallback for old systems/cached browsers to be safe!
+        if (empty($urls) && empty($texts)) {
+            $raw_items = $this->request->getPost('menuitems');
+            if (!empty($raw_items)) {
+                // It's a comma separated string of inner HTMLs or similar
+                $itemsArray = explode(',', $raw_items);
+                foreach ($itemsArray as $itemHtml) {
+                    $itemHtml = str_replace(['=&gt;', '=>'], '|||', $itemHtml);
+                    if (strpos($itemHtml, '|||') !== false) {
+                        // "ACCUEIL ||| /<span>X</span>"
+                        $parts = explode('|||', strip_tags(str_replace('<span>X</span>', '', $itemHtml)));
+                        if (count($parts) >= 2) {
+                            $menuItems[] = [
+                                'url' => trim($parts[1]),
+                                'link_text' => trim($parts[0]),
+                            ];
+                        }
+                    }
+                }
+            }
+        } else {
+            foreach ($urls as $key => $url) {
+                if (empty($url)) continue;
+                $menuItems[] = [
+                    'url'       => $url,
+                    'link_text' => $texts[$key] ?? '',
+                ];
+            }
         }
 
         $data = [
