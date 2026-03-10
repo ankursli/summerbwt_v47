@@ -265,10 +265,16 @@ class Front extends BaseController
             }
 
             if (!$this->validation->withRequest($request)->run()) {
+                $sidemenu_without_login = $this->mdlMenu->GetRecordMenus(['menu_id' => 'sidebar_menu_without']);
+                $footermenu = $this->mdlMenu->GetRecordMenus(['menu_id' => 'footer_menu']);
+
                 $data = [
                     'success' => $this->session->getFlashdata('success'),
                     'error' => $this->session->getFlashdata('error'),
-                    'main_content' => 'front/forgotpassword'
+                    'sidemenu' => $sidemenu_without_login,
+                    'footermenu' => $footermenu,
+                    'main_content' => 'front/forgotpassword',
+                    'validation' => $this->validation
                 ];
                 return $this->renderTemplate($data);
             }
