@@ -44,10 +44,9 @@ $lastparam = end($parts);
 		<header class="main-header">
 			<!-- Logo -->
 			<a href="<?php echo base_url('admin/dashboard');?>" class="logo">
-			  <!-- mini logo for sidebar mini 50x50 pixels -->
-			  <span class="logo-mini"><img src="<?php echo base_url('assets/image/logo-white.svg');?>" alt="Logo" height="30px"></span>
+			  <span class="logo-mini"><img src="<?php echo base_url('assets/image/logosummer.webp');?>" alt="Logo" style="height: 38px; margin-top: 6px;"></span>
 			  <!-- logo for regular state and mobile devices -->
-			  <span class="logo-lg"><img src="<?php echo base_url('assets/image/logo-white.svg');?>" alt="Logo" height="30px"></span>
+			  <span class="logo-lg"><img src="<?php echo base_url('assets/image/logosummer.webp');?>" alt="Logo" style="height: 38px; margin-top: 6px;"></span>
 			</a>
 			<!-- Header Navbar: style can be found in header.less -->
 			<nav class="navbar navbar-static-top">
