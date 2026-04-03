@@ -1175,12 +1175,12 @@ class Front extends BaseController
                     'contact->addresses{MED_SOCIAL_ADDRESS}->postal_code' => $user_detail_info['postcode'],
                     'contact->addresses{MED_SOCIAL_ADDRESS}->city' => $user_detail_info['city'],
                     'contact->iban->iban' => $bank_iban,
-                    'operations{4146_ODR_SUMMER_2025}->participation->documents{4146_INVOICE}->order{0}->purchase_date' => $new_date,
-                    'operations{4146_ODR_SUMMER_2025}->participation->documents{4146_INVOICE}->order{0}->store->code' => $store_code_value,
-                    'operations{4146_ODR_SUMMER_2025}->participation->documents{4146_INVOICE}->order{0}->products{0}->code' => $robot_code[0]['robot_code'] ?? '',
-                    'operations{4146_ODR_SUMMER_2025}->participation->documents{4146_INVOICE}->order{0}->products{0}->quantity' => "1",
-                    'operations{4146_ODR_SUMMER_2025}->participation->documents{4146_INVOICE}->order{0}->attachment->base64_content' => $base64_data,
-                    'operations{4146_ODR_SUMMER_2025}->participation->documents{4146_INVOICE}->order{0}->attachment->filename' => $filename,
+                    'operations{4482_ODR_SUMMER_2026}->participation->documents{4482_INVOICE}->order{0}->purchase_date' => $new_date,
+                    'operations{4482_ODR_SUMMER_2026}->participation->documents{4482_INVOICE}->order{0}->store->code' => $store_code_value,
+                    'operations{4482_ODR_SUMMER_2026}->participation->documents{4482_INVOICE}->order{0}->products{0}->code' => $robot_code[0]['robot_code'] ?? '',
+                    'operations{4482_ODR_SUMMER_2026}->participation->documents{4482_INVOICE}->order{0}->products{0}->quantity' => "1",
+                    'operations{4482_ODR_SUMMER_2026}->participation->documents{4482_INVOICE}->order{0}->attachment->base64_content' => $base64_data,
+                    'operations{4482_ODR_SUMMER_2026}->participation->documents{4482_INVOICE}->order{0}->attachment->filename' => $filename,
                     'duplicate_criteria' => $roboto_serial_no
                 ];
 
@@ -1491,15 +1491,23 @@ class Front extends BaseController
                 file_put_contents($logpath, print_r($parameters, true), FILE_APPEND);
 
                 $url = 'https://je-participe.fr/Carbone-Api-V2.1/Web/public/create-participation';
-                $curl = \Config\Services::curlrequest();
                 
                 try {
-                    $response = $curl->request('POST', $url, [
-                        'form_params' => $parameters,
-                        'verify' => false
-                    ]);
+                    $ch = curl_init();
+                    curl_setopt($ch, CURLOPT_POST, 1);
+                    curl_setopt($ch, CURLOPT_POSTFIELDS, $parameters);
+                    curl_setopt($ch, CURLOPT_URL, $url);
+                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+                    $result = curl_exec($ch);
+                    
+                    if (curl_errno($ch)) {
+                        throw new \Exception(curl_error($ch));
+                    }
+                    curl_close($ch);
 
-                    $result = $response->getBody();
+                    $result = $result ? $result : '';
                     file_put_contents($logpath, PHP_EOL . 'start log APi Response : ' . date('d-m-Y') . PHP_EOL, FILE_APPEND);
                     file_put_contents($logpath, $result, FILE_APPEND);
 
