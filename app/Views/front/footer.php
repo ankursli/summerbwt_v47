@@ -1091,7 +1091,7 @@ $('#selectrobotcountry').change(function(){
 
 												
 						$.each(response,function(index,data){
-							$('#selectpurchase').append('<option value="'+data['id']+'"  handle="'+data['store_handle']+'">'+data['store_name']+'</option>');
+							$('#selectpurchase').append('<option value="'+data['store_code']+'"  handle="'+data['store_handle']+'">'+data['store_name']+'</option>');
 						});
 						$('#selectpurchase').append('<option value="AUTRE" handle="autre" >AUTRE</option>');
                       
@@ -1127,18 +1127,18 @@ if($('#sotrycountry').val()!=''){
                                 return; // Skip this iteration
                             }
 							if(sotrename!=''){
-								if(sotrename == data['id']){
-									$('#selectpurchase').append('<option selected value="'+data['id']+'"  handle="'+data['store_handle']+'">'+data['store_name']+'</option>');
+								if(sotrename == data['store_code']){
+									$('#selectpurchase').append('<option selected value="'+data['store_code']+'"  handle="'+data['store_handle']+'">'+data['store_name']+'</option>');
 									
 								}else{
-									$('#selectpurchase').append('<option value="'+data['id']+'"  handle="'+data['store_handle']+'">'+data['store_name']+'</option>');
+									$('#selectpurchase').append('<option value="'+data['store_code']+'"  handle="'+data['store_handle']+'">'+data['store_name']+'</option>');
 									
 								}
 								
 							}
 							else{
 								
-								$('#selectpurchase').append('<option value="'+data['id']+'"  handle="'+data['store_handle']+'">'+data['store_name']+'</option>');
+								$('#selectpurchase').append('<option value="'+data['store_code']+'"  handle="'+data['store_handle']+'">'+data['store_name']+'</option>');
 							}
 							
 						});
@@ -1203,7 +1203,7 @@ $('#selectrobotcountryoffer').change(function(){
 
                         
 						$.each(response,function(index,data){
-            				 $('#selectproduct').append('<option value="'+data['id']+'"  handle="'+data['store_handle']+'">'+data['store_name']+'</option>');
+            				 $('#selectproduct').append('<option value="'+data['store_code']+'"  handle="'+data['store_handle']+'">'+data['store_name']+'</option>');
          				 });
                       
  

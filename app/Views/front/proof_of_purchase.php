@@ -207,7 +207,7 @@
 									<select class="custom-select" id="selectrobot" name="robot_id" required>
 										<option selected value="none"><?php echo lang('Label.label_to_choose'); ?></option>
 										<?php foreach ($getrobots as $getrobot) { ?>
-											<option value="<?php echo $getrobot['id']; ?>" <?php if ($getrobot['id'] == $robot_id) {
+											<option value="<?php echo $getrobot['robot_code']; ?>" <?php if ($getrobot['robot_code'] == $robot_id) {
 																								echo 'selected';
 																							} ?>><?php echo $getrobot['robot_name']; ?></option>
 										<?php  } ?>

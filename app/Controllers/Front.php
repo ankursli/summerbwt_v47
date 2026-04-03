@@ -1087,14 +1087,23 @@ class Front extends BaseController
                 return redirect()->back()->withInput();
             }
 
-            $robot_id = $request->getPost('robot_id');
-            $robot_code = $this->mdlRobot->GetRecordUsers(["id" => $robot_id]);
+            $robot_post_code = $request->getPost('robot_id');
+            $robot_records = $this->mdlRobot->GetRecordUsers(["robot_code" => $robot_post_code]);
+            $robot_code = $robot_records; 
+            $robot_id = $robot_records[0]['id'] ?? 0;
             $date_of_purchase = $request->getPost('date_of_purchase');
             $bank_ibantrim = $request->getPost('bank_iban');
             $bank_iban = str_replace(' ', '', $bank_ibantrim);
             $roboto_serial_no = $request->getPost('roboto_serial_no');
-            $store_id = $request->getPost('store_id');
-            $store_code = $this->mdlStorerobot->GetRecordUsers(["id" => $store_id]);
+            $store_post_id = $request->getPost('store_id');
+            if ($store_post_id != 'AUTRE') {
+                $store_records = $this->mdlStorerobot->GetRecordUsers(["store_code" => $store_post_id]);
+                $store_code = $store_records;
+                $store_id = $store_records[0]['id'] ?? 0;
+            } else {
+                $store_id = 'AUTRE';
+                $store_code = [];
+            }
             $nom_address = $request->getPost('nom_address');
             $postalcode_field = $request->getPost('postalcode');
             $vile = $request->getPost('vile');
@@ -1310,10 +1319,12 @@ class Front extends BaseController
                 return redirect()->back()->withInput();
             }
 
-            if ("AUTRE" == $store_id) {
-                $store_id_val = 148;
+            $store_post_id = $this->request->getPost('store_id');
+            if ($store_post_id != 'AUTRE' && $store_post_id != 'none') {
+                $store_records = $this->mdlStorerobot->GetRecordUsers(["store_code" => $store_post_id]);
+                $store_id_val = $store_records[0]['id'] ?? 0;
             } else {
-                $store_id_val = $store_id;
+                $store_id_val = ($store_post_id == 'AUTRE') ? 148 : 0;
             }
 
             $insert = [
@@ -1436,7 +1447,16 @@ class Front extends BaseController
                 return redirect()->back()->withInput();
             }
 
-            $storeid_val = ($store_id == 'AUTRE') ? 148 : $store_id;
+            $store_post_id = $this->request->getPost('store_id');
+            if ($store_post_id != 'AUTRE' && $store_post_id != 'none') {
+                // Refund might be using mdlStore if it's the excellence contract. Let's look up by ID if code lookup fails.
+                // But if Excellence Contract (handle 1) also uses robot_store in some cases...
+                // Actually the AJAX for refund uses get_country_store which uses mdlStore.
+                // Reverting footer selectsale to ID makes it work.
+                $storeid_val = $store_post_id;
+            } else {
+                $storeid_val = ($store_post_id == 'AUTRE') ? 148 : 0;
+            }
 
             $insert = [
                 'user_id' => $user_id,
