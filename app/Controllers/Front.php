@@ -1200,19 +1200,28 @@ class Front extends BaseController
                 $url = 'https://je-participe.fr/Carbone-Api-V2.1/Web/public/create-subscription';
                 $token = 'F2U9dMrtu28ggD9YcmXzcG9uZCBhHjggY2dkZXpGZ2F6kWn0cyBwb3VyIGwnbsDg7XJhdGlvbgBWYXb2qKNkJPF0ZmlAy8lz';
                 
-                $curl = \Config\Services::curlrequest();
                 try {
-                    $response = $curl->request('POST', $url, [
-                        'headers' => [
-                            'Authorization' => 'Bearer ' . $token,
-                        ],
-                        'form_params' => $parameters,
-                        'verify' => false
+                    $ch = curl_init();
+                    curl_setopt($ch, CURLOPT_URL, $url);
+                    curl_setopt($ch, CURLOPT_POST, 1);
+                    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($parameters));
+                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                        'Content-Type: application/json',
+                        'Accept: application/json',
+                        'Authorization: Bearer ' . $token,
+                        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
                     ]);
-
-                    $result = $response->getBody();
-                    $resultArray = json_decode($result, true);
-                    $httpCode = $response->getStatusCode();
+                    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+                    
+                    $result = curl_exec($ch);
+                    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                    
+                    if (curl_errno($ch)) {
+                        throw new \Exception(curl_errno($ch) . ' : ' . curl_error($ch));
+                    }
+                    curl_close($ch);
 
                     $this->mdlProof->updateProof([
                         'api_status' => $httpCode,
@@ -1221,7 +1230,7 @@ class Front extends BaseController
                     ], ['purchase_id' => $purchase_id]);
 
                     if ($httpCode !== 200) {
-                        file_put_contents($logpath, PHP_EOL . 'start log APi Response error : ' . date('d-m-Y') . PHP_EOL, FILE_APPEND);
+                        file_put_contents($logpath, PHP_EOL . 'start log APi Response error ('. $httpCode .') : ' . date('d-m-Y') . PHP_EOL, FILE_APPEND);
                         file_put_contents($logpath, $result, FILE_APPEND);
 
                         $this->session->setFlashdata('error', ($siteLang == 'english') ? 'Your data is not ok, please check!' : 'Vos données ne sont pas correctes, veuillez vérifier !');
@@ -1236,16 +1245,14 @@ class Front extends BaseController
                 } catch (\Exception $e) {
                     log_message('error', 'API error: ' . $e->getMessage());
                     
-                    // Update DB with the error detail so it's traceable
                     $this->mdlProof->updateProof([
-                        'api_status' => '999', // Custom code for Exception
+                        'api_status' => '999',
                         'api_post_data' => json_encode($parameters),
                         'api_get_data' => 'EXCEPTION: ' . $e->getMessage(),
                     ], ['purchase_id' => $purchase_id]);
 
-                    // Even if API fails, treat as success since DB save was successful
                     $this->session->setFlashdata('success', lang('success_proof'));
-                    $this->session->setFlashdata('api_status_msg', 'API Submission: FAILED (Technical Error)');
+                    $this->session->setFlashdata('api_status_msg', 'API Submission: FAILED (Technical Error: ' . $e->getMessage() . ')');
                     
                     return redirect()->to('thankyou_robot');
                 }
