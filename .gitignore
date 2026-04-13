@@ -15,7 +15,6 @@ public/.htaccess
 
 # Dependencies
 vendor/
-composer.lock
 
 # IDE & OS Files
 .idea/
