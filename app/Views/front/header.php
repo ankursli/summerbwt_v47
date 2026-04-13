@@ -115,7 +115,7 @@ $lastparam = end($parts);
 							</div>
 
 							<div class="col-md-4 hiddenmobile">
-								<img class="summerlogo" src="<?php echo base_url();?>assets/image/summer_logosummer.webp" alt="">
+								<img class="summerlogo" src="<?php echo base_url();?>assets/image/summer_logo.webp" alt="">
 							</div>
 
 							<div class="col-md-2">
