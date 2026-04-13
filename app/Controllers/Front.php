@@ -672,52 +672,15 @@ class Front extends BaseController
 
     public function proof_of_purchase()
     {
-        $sidemenu_without_login = $this->mdlMenu->GetRecordMenus(['menu_id' => 'sidebar_menu_without']);
-        $sidemenu = $this->mdlMenu->GetRecordMenus(['menu_id' => 'sidebar_menu']);
-        $footermenu = $this->mdlMenu->GetRecordMenus(['menu_id' => 'footer_menu']);
         $frontUser = $this->getFrontUser();
-
-        if (!empty($frontUser)) {
-            $getproofs = $this->mdlProof->GetRecord(['user_id' => $frontUser['id']]);
-            $getstores = $this->mdlStorerobot->GetRecordUsers();
-            $getrobots = $this->mdlRobot->GetRecordUsers();
-            $anothergetstores = $this->mdlStorerobot->GetRecordUsers(['store_handle' => 0]);
-            $getcoupons = $this->mdlCoupon->GetRecordUsers();
-
-            $data = [
-                'success' => $this->session->getFlashdata('success'),
-                'error' => $this->session->getFlashdata('error'),
-                'main_content' => 'front/proof_of_purchase',
-                'getproofs' => $getproofs ?? [],
-                'sidemenu' => !empty($frontUser) ? $sidemenu : $sidemenu_without_login,
-                'footermenu' => $footermenu,
-                'anothergetstores' => $anothergetstores,
-                'getstores' => $getstores,
-                'getcoupons' => $getcoupons,
-                'getrobots' => $getrobots,
-                'getrobotstores' => $getstores,
-                'validation' => \Config\Services::validation(),
-                
-                // Form defaults for the view
-                'clienttype' => old('contact', 'particulier'),
-                'siret' => old('siret', ''),
-                'upload_proof' => old('uplodehidenfile', ''),
-                'filesizeinfo' => old('filesizeinfo', ''),
-                'robot_id' => old('robot_id', ''),
-                'store_id' => old('store_id', ''),
-                'store_country' => old('store_country', 'FR'),
-                'date_of_purchase' => old('date_of_purchase', ''),
-                'nomstoreadditional' => old('nomstoreadditional', ''),
-                'nom_address' => old('nom_address', ''),
-                'postalcode' => old('postalcode', ''),
-                'vile' => old('vile', ''),
-                'complementad' => old('complementad', ''),
-                'bank_iban' => old('bank_iban', ''),
-                'roboto_serial_no' => old('roboto_serial_no', ''),
-            ];
-            return $this->renderTemplate($data);
+        if (empty($frontUser)) {
+            return redirect()->to('login');
         }
 
+        $sidemenu = $this->mdlMenu->GetRecordMenus(['menu_id' => 'sidebar_menu']);
+        $footermenu = $this->mdlMenu->GetRecordMenus(['menu_id' => 'footer_menu']);
+
+        $getproofs = $this->mdlProof->GetRecord(['user_id' => $frontUser['id']]);
         $getstores = $this->mdlStorerobot->GetRecordUsers();
         $getrobots = $this->mdlRobot->GetRecordUsers();
         $anothergetstores = $this->mdlStorerobot->GetRecordUsers(['store_handle' => 0]);
@@ -727,7 +690,8 @@ class Front extends BaseController
             'success' => $this->session->getFlashdata('success'),
             'error' => $this->session->getFlashdata('error'),
             'main_content' => 'front/proof_of_purchase',
-            'sidemenu' => $sidemenu_without_login,
+            'getproofs' => $getproofs ?? [],
+            'sidemenu' => $sidemenu,
             'footermenu' => $footermenu,
             'anothergetstores' => $anothergetstores,
             'getstores' => $getstores,
