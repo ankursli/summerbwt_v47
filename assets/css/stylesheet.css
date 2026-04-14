@@ -1803,8 +1803,8 @@ h4.box-title {
     /*Home page css*/
     .first-block h3 span,
     .second-block h3 span {
-        font-size: 49px !important;
-        line-height: 49px !important;
+        font-size: 45px !important;
+        line-height: 45px !important;
     }
 
     .first-block h3 span.block-percentage {
