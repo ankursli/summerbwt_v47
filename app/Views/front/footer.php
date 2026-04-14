@@ -856,7 +856,7 @@ $(".triggerDrawcheckproof").click(function(e){
 	}
 	if(selectrobot == 'none' ){
 		flag = 1;
-		$("#selectrobot").next('.error').append('<span class="error error-keyup-roboto">Le champ robot est obligatoire.</span>');
+		$("#selectrobot").next('.error').append('<span class="error error-keyup-roboto">Le champ modèle est obligatoire</span>');
 	}else{
 		$(".error-keyup-roboto").remove();
 	}
@@ -870,14 +870,14 @@ $(".triggerDrawcheckproof").click(function(e){
 
 	if(roboto_serial_no == ''){
 		flag = 1;
-		$("#roboto_serial_no").next('.error').append('<span class="error error-keyup-serialno">Le champ modèle du robot est obligatoire.</span>');
+		$("#roboto_serial_no").next('.error').append('<span class="error error-keyup-serialno">Le champ numéro de série est obligatoire</span>');
 	}else{
 		$(".error-keyup-serialno").remove();
 	}
 
 	if(selectpurchase == 'none'){
 		flag = 1;
-		$("#store_iderror").append('<span class="error error-keyup-stroreerro">Le champ  le numéro de série du robot est obligatoire.</span>');
+		$("#store_iderror").append('<span class="error error-keyup-stroreerro">Le champ magasin est obligatoire</span>');
 	}else{
 		$(".error-keyup-stroreerro").remove();
 	}
@@ -955,7 +955,7 @@ $(".triggerDrawcheckp").click(function(e){
 
 	if(selectpurchase == 'none'){
 		flag = 1;
-		$("#selectpurchase").next('.error').append('<span class="error error-keyup-stroreerro">Le champ  le numéro de série du robot est obligatoire.</span>');
+		$("#selectpurchase").next('.error').append('<span class="error error-keyup-stroreerro">Le champ magasin est obligatoire</span>');
 	}else{
 		$(".error-keyup-stroreerro").remove();
 	}
