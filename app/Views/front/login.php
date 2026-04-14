@@ -12,7 +12,7 @@
 
 		</div>
 
-		<form action="<?php echo base_url('front/checkLogin');?>" method="post">
+		<form action="<?php echo base_url('checkLogin');?>" method="post">
 
 			<div class="row" >
 
