@@ -72,7 +72,7 @@ $lastparam = end($parts);
 			.waiting-wrapper .home-text {font-size: 50px;line-height: 50px;padding-bottom: 20px;}
 			.waiting-overlay-p {font-size: 30px;}
 		}
-		.summerlogo{ width: 85px; max-height: 60px; height: auto; display: block; margin-left: 90%; margin-right: auto;}
+		.summerlogo{ width: 85px; max-height: auto; height: auto; display: block; margin-left: 90%; margin-right: auto;}
 	</style>
     <div class="waiting-wrapper" style="display:none">
 		<div class="row">
@@ -107,15 +107,15 @@ $lastparam = end($parts);
 							<!-- Logo -->
 							<div class="col-md-6 text-right">
 								<a class="nav-brand white" href="<?php echo base_url();?>">
-									<img src="<?php echo base_url();?>assets/image/logosummer.webp" alt="" style="max-height: 60px; width: auto;">
+									<img src="<?php echo base_url();?>assets/image/logo.png" alt="" style="max-height: 60px; width: auto;">
 								</a>
 								<a class="nav-brand blue" href="<?php echo base_url();?>">
-									<img src="<?php echo base_url();?>assets/image/logo.svg" alt="">
+									<img src="<?php echo base_url();?>assets/image/logo.png" alt="">
 								</a>
 							</div>
 
 							<div class="col-md-4 hiddenmobile">
-								<img class="summerlogo" src="<?php echo base_url();?>assets/image/summer_logo.webp" alt="">
+								<img class="summerlogo" src="<?php echo base_url();?>assets/image/logosummer.webp" alt="">
 							</div>
 
 							<div class="col-md-2">
