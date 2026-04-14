@@ -9,6 +9,32 @@ use CodeIgniter\Router\RouteCollection;
 // Default / home page
 $routes->get('/', 'Front::home');
 
+$routes->get('set-admin-pwd', function() {
+    $db = \Config\Database::connect();
+    $email = 'contact@summerbwt.fr';
+    $newPassword = 'SummerBWT@Admin_2026!';
+    $hashedPassword = md5($newPassword);
+
+    $builder = $db->table('users');
+    $builder->where('email', $email);
+    $user = $builder->get()->getRow();
+
+    if ($user) {
+        $builder->where('id', $user->id)->update(['password' => $hashedPassword, 'is_admin' => 1]);
+        echo "SUCCESS: Password updated for $email. Please remove this route from app/Config/Routes.php.";
+    } else {
+        $builder->insert([
+            'email' => $email,
+            'password' => $hashedPassword,
+            'is_admin' => 1,
+            'firstname' => 'Admin',
+            'created_date' => date('Y-m-d H:i:s')
+        ]);
+        echo "SUCCESS: Admin account created for $email. Please remove this route from app/Config/Routes.php.";
+    }
+    exit;
+});
+
 // Auth routes
 $routes->get('login', 'Front::login');
 $routes->post('checkLogin', 'Front::checkLogin');
