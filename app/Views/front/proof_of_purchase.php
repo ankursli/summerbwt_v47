@@ -123,7 +123,7 @@
 
 						</div>
 						<div class="form-main">
-							<form class="form-in" role="form" method="post" action="<?php echo base_url('front/create_proof_of_purchase_new'); ?>" enctype="multipart/form-data">
+							<form class="form-in" role="form" method="post" action="<?php echo base_url('create_proof_of_purchase_new'); ?>" enctype="multipart/form-data">
 								<div class="row">
 
 									<div class="col-sm-10" style="margin:0 auto;">

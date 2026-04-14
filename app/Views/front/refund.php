@@ -86,7 +86,7 @@
 
 						<div class="form-main">
 
-							<form class="form-in" role="form" method="post" action="<?php echo base_url('front/create_refundnew'); ?>" enctype="multipart/form-data">
+							<form class="form-in" role="form" method="post" action="<?php echo base_url('create_refundnew'); ?>" enctype="multipart/form-data">
 
 								<div class="row">
 

@@ -10,7 +10,7 @@
             </div>
             <!-- /.box-header -->
             <!-- form start -->
-            <form role="form" method="post" action="<?php echo base_url('front/create_support');?>" enctype="multipart/form-data" >
+            <form role="form" method="post" action="<?php echo base_url('create_support');?>" enctype="multipart/form-data" >
 				<div class="box-body">
 					<div class="row" >
 						<div class="col-sm-12">
