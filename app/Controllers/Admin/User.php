@@ -162,8 +162,13 @@ class User extends BaseController
                 return view('admin/front', $data);
             }
 
+            $firstname = $this->request->getPost('firstname');
+            if (!empty($firstname)) {
+                $firstname = str_replace([' ', '-'], '.', $firstname);
+            }
+
             $insert = [
-                'firstname'    => $this->request->getPost('firstname'),
+                'firstname'    => $firstname,
                 'lastname'     => $this->request->getPost('lastname'),
                 'email'        => $this->request->getPost('email'),
                 'phone'        => $this->request->getPost('phone'),
@@ -245,8 +250,13 @@ class User extends BaseController
                 return view('admin/front', $data);
             }
 
+            $firstname = $this->request->getPost('firstname');
+            if (!empty($firstname)) {
+                $firstname = str_replace([' ', '-'], '.', $firstname);
+            }
+
             $update = [
-                'firstname'   => $this->request->getPost('firstname'),
+                'firstname'   => $firstname,
                 'lastname'    => $this->request->getPost('lastname'),
                 'email'       => $this->request->getPost('email'),
                 'phone'       => $this->request->getPost('phone'),
@@ -309,8 +319,13 @@ class User extends BaseController
                 $count++;
                 if ($count === 1) continue; // skip header row
 
+                $firstname = $csv_line[0] ?? 'NULL';
+                if ($firstname !== 'NULL' && !empty($firstname)) {
+                    $firstname = str_replace([' ', '-'], '.', $firstname);
+                }
+
                 $data = [
-                    'firstname'    => $csv_line[0] ?? 'NULL',
+                    'firstname'    => $firstname,
                     'lastname'     => $csv_line[1] ?? 'NULL',
                     'email'        => $csv_line[2] ?? '',
                     'password'     => isset($csv_line[3]) ? md5($csv_line[3]) : '',

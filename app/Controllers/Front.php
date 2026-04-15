@@ -523,8 +523,13 @@ class Front extends BaseController
 
         $langf = ($siteLang == 'english') ? "en-UK" : "fr-FR";
 
+        $firstname = $request->getPost('firstname');
+        if (!empty($firstname)) {
+            $firstname = str_replace([' ', '-'], '.', $firstname);
+        }
+
         $insert = [
-            'firstname' => $request->getPost('firstname'),
+            'firstname' => $firstname,
             'lastname' => $request->getPost('lastname'),
             'email' => $request->getPost('email'),
             'phone' => $phone,
@@ -635,8 +640,13 @@ class Front extends BaseController
             return $this->renderTemplate($data);
         }
 
+        $firstname = $request->getPost('firstname');
+        if (!empty($firstname)) {
+            $firstname = str_replace([' ', '-'], '.', $firstname);
+        }
+
         $insert = [
-            'firstname' => $request->getPost('firstname'),
+            'firstname' => $firstname,
             'lastname' => $request->getPost('lastname'),
             'phone' => $request->getPost('phone'),
             'country' => $request->getPost('country'),
