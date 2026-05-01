@@ -33,9 +33,9 @@
 						
 						
 
-							<li class="showinmobile"><a href="<?php echo base_url();?>" target="_blank" title="<?php echo lang('Label.label_the_bwt_group');?>" target="_blank">
+							<!-- <li class="showinmobile"><a href="<?php echo base_url();?>" target="_blank" title="<?php echo lang('Label.label_the_bwt_group');?>" target="_blank">
 							<img src="<?php echo base_url();?>assets/image/logo.svg" alt="">
-							</a></li>
+							</a></li> -->
 							<?php 
 										$json_decode = json_decode($footermenu['menu_items'], true);
 										if (is_array($json_decode)) {
@@ -49,12 +49,7 @@
 											}
 										} 
 							?>
-							<!-- <li><a target="_blank"  href="https://www.bwt.fr/fr/Pages/default.aspx"><?php echo lang('Label.label_the_bwt_group');?></a></li>
-							<li><a target="_blank" href="<?php echo $clink;?>"><?php echo lang('Label.label_conditions_of_participation');?></a></li>
-							<li><a target="_blank" href="<?php echo $reules; ?>"><?php echo lang('Label.label_reglementlink_data');?></a></li>
-							<li><a target="_blank" href="<?php echo $privacy_policy ;?>"><?php echo lang('Label.label_pravicy_policy_menu');?></a></li>
-							<li><a target="_blank" href="<?php echo $cookie_link;?>"><?php echo lang('Label.label_cookies');?></a></li>
-							<li><a target="_blank" href="<?php echo $legal_notice;?>"><?php echo lang('Label.label_legal_notice');?></a></li> -->
+						
 							
 						</ul>
 					</div>
