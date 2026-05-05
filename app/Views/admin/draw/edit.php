@@ -52,22 +52,17 @@
 						<label><?php echo lang('Label.label_store');?> :</label>
 						<span><?php echo $draws[0]['store_name'];?></span>
 					</div>
-					<?php 
-					if($draws[0]['another_store_handle']!=0){
-						$anothergetstores = $this->Mdl_Store->GetRecordUsers(array('id'=>$draws[0]['another_store_handle']));
-						$name = $anothergetstores[0]['store_name'];
-						?>
+					<?php if($draws[0]['store_name'] == 'AUTRE'){ ?>
 						<div class="form-group">
 							<label><?php echo lang('Label.label_another_store');?> :</label>
-							<span><?php echo $name;?></span>
+							<span><?php echo strtoupper($draws[0]['store_name_additional']);?></span><br/>
+							<b>Address :</b><?php echo $draws[0]['address']." ".$draws[0]['addition_address'];?>, <?php echo $draws[0]['zipcode'].", ".$draws[0]['city'];?>
 						</div>
-						<?php 
-					}
-					?>
-					<?php if(!empty($draws[0]['coupon_list_code'])){?>
+					<?php } ?>
+					<?php if(!empty($draws[0]['coupon_name'])){?>
 					<div class="form-group">
 						<label><?php echo lang('Label.label_coupon');?> :</label>
-						<span><?php echo $draws[0]['coupon_list_code'];?></span>
+						<span><?php echo $draws[0]['coupon_name'];?></span>
 					</div>
 					<?php } ?>
 					<div class="form-group">
@@ -82,13 +77,13 @@
 					</div>
 					<div class="form-group">
 						<label><?php echo lang('Label.label_applied_date');?> :</label>
-						<span><?php echo $draws[0]['coupon_status_date'];?></span>
+						<span><?php echo $draws[0]['upload_draw_date'];?></span>
 					</div>
 					<div class="form-group" style="display:none;">
 						<select name="coupon">
 							<?php 
 							foreach($couponcodes as $couponcode){
-								if($draws[0]['coupon_list_code']==$couponcode['coupon_code']){
+								if(($draws[0]['coupon_name'] ?? '') == $couponcode['coupon_code']){
 									$selected = "selected='selected'";
 								}else{
 									$selected="";

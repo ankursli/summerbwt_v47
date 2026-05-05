@@ -50,28 +50,23 @@
 					</div-->
 					<div class="form-group">
 						<label><?php echo lang('Label.label_robot');?> :</label>
-						<span><?php echo $proofs[0]['coupon_name'];?></span>
+						<span><?php echo $proofs[0]['robot_name'];?></span>
 					</div>
 					<div class="form-group">
 						<label><?php echo lang('Label.label_stores');?> :</label>
 						<span><?php echo $proofs[0]['store_name'];?></span>
 					</div>
-					<?php 
-					if($proofs[0]['another_store_handle']!=0){
-						$anothergetstores = $this->Mdl_Storerobot->GetRecordUsers(array('id'=>$proofs[0]['another_store_handle']));
-						$name = $anothergetstores[0]['store_name'];
-						?>
+					<?php if($proofs[0]['store_name'] == 'AUTRE'){ ?>
 						<div class="form-group">
 							<label><?php echo lang('Label.label_another_store');?> :</label>
-							<span><?php echo $name;?></span>
+							<span><?php echo strtoupper($proofs[0]['store_name_additional']);?></span><br/>
+							<b>Address :</b><?php echo $proofs[0]['address']." ".$proofs[0]['addition_address'];?>, <?php echo $proofs[0]['zipcode'].", ".$proofs[0]['city'];?>
 						</div>
-						<?php 
-					}
-					?>
-					<?php if(!empty($proofs[0]['coupon_list_code'])){?>
+					<?php } ?>
+					<?php if(!empty($proofs[0]['robot_code'])){?>
 					<div class="form-group">
 						<label><?php echo lang('Label.label_coupon');?> :</label>
-						<span><?php echo $proofs[0]['coupon_list_code'];?></span>
+						<span><?php echo $proofs[0]['robot_code'];?></span>
 					</div>
 					<?php } ?>
 					<div class="form-group">

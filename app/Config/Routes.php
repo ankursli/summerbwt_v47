@@ -172,12 +172,18 @@ $routes->get('admin/proof', 'Admin\\Proof::index');
 $routes->get('admin/proof/edit/(:num)', 'Admin\\Proof::edit/$1');
 $routes->post('admin/proof/newupdate', 'Admin\\Proof::newupdate');
 $routes->get('admin/proof/remove/(:num)', 'Admin\\Proof::remove/$1');
+$routes->get('admin/proof/export_proof', 'Admin\\Proof::export_proof');
+$routes->post('admin/proof/finalupdate', 'Admin\\Proof::finalupdate');
+$routes->post('admin/proof/rejectproof', 'Admin\\Proof::rejectproof');
 
 // Admin Draw (Concours GP Italie)
 $routes->get('admin/draw', 'Admin\\Draw::index');
 $routes->get('admin/draw/edit/(:num)', 'Admin\\Draw::edit/$1');
 $routes->post('admin/draw/update', 'Admin\\Draw::update');
 $routes->get('admin/draw/remove/(:num)', 'Admin\\Draw::remove/$1');
+$routes->get('admin/draw/export_draw', 'Admin\\Draw::export_draw');
+$routes->post('admin/draw/finalupdate', 'Admin\\Draw::finalupdate');
+$routes->post('admin/draw/rejectdraw', 'Admin\\Draw::rejectdraw');
 
 // Admin Refund (Contrat d'Excellence)
 $routes->get('admin/refund', 'Admin\\Refund::index');
