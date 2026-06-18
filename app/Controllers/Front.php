@@ -304,7 +304,7 @@ class Front extends BaseController
 
                 $emailService = \Config\Services::email();
                 $emailService->setMailType('html');
-                $emailService->setFrom($settings[0]['from_email'] ?? 'noreply@bwt.com', 'BWT');
+                $emailService->setFrom('operations.bwt@phare-west.fr', 'BWT');
                 $emailService->setTo($email);
                 $emailService->setSubject($user_get_templates_html[0]['template_subject'] ?? 'Reset Password');
                 $emailService->setMessage($user_html);
@@ -561,7 +561,7 @@ class Front extends BaseController
 
                 $emailService = \Config\Services::email();
                 $emailService->setMailType('html');
-                $emailService->setFrom($settings[0]['from_email'] ?? 'noreply@bwt.com', 'BWT');
+                $emailService->setFrom('operations.bwt@phare-west.fr', 'BWT');
                 $emailService->setTo($request->getPost('email'));
                 $emailService->setSubject($user_get_templates_html[0]['template_subject'] ?? 'Welcome');
                 $emailService->setMessage($user_html);
@@ -1585,7 +1585,7 @@ class Front extends BaseController
                 // Send email to user
                 $emailService = \Config\Services::email();
                 $emailService->setMailType('html');
-                $emailService->setFrom($settings[0]['from_email'], 'BWT');
+                $emailService->setFrom('operations.bwt@phare-west.fr', 'BWT');
                 $emailService->setTo($insert['email']);
                 $emailService->setSubject($user_get_templates_html[0]['template_subject'] ?? 'Support Confirmation');
                 $emailService->setMessage($user_html);
@@ -1599,8 +1599,8 @@ class Front extends BaseController
                 // Send notification email to admin
                 $adminEmailService = \Config\Services::email();
                 $adminEmailService->setMailType('html');
-                $adminEmailService->setFrom($settings[0]['from_email'], 'BWT Support Website');
-                $adminEmailService->setTo('ankur.ankp@gmail.com');
+                $adminEmailService->setFrom('operations.bwt@phare-west.fr', 'BWT Support Website');
+                $adminEmailService->setTo('operations.bwt@phare-west.fr');
                 $adminEmailService->setSubject('New Support Request / Nouvelle demande de support - ' . $insert['firstname'] . ' ' . $insert['lastname']);
                 
                 $adminHtml = "<h3>New Support Request Received</h3>";
@@ -1655,12 +1655,11 @@ class Front extends BaseController
                 $emailService->setMessage($template);
 
                 try {
-                    if ($emailService->send()) {
-                        $this->mdlProof->updateProof(['cron_status' => 1], ['purchase_id' => $proof['purchase_id']]);
-                        echo "Sent to " . $proof['email'] . "<br>";
-                    }
+                    // Email sending disabled, handled by Takeoff
+                    $this->mdlProof->updateProof(['cron_status' => 1], ['purchase_id' => $proof['purchase_id']]);
+                    echo "Processed " . $proof['email'] . "<br>";
                 } catch (\Exception $e) {
-                    log_message('error', 'Cron proof email error: ' . $e->getMessage());
+                    log_message('error', 'Cron proof error: ' . $e->getMessage());
                     echo "Error for " . $proof['email'] . ": " . $e->getMessage() . "<br>";
                 }
             }
@@ -1694,12 +1693,11 @@ class Front extends BaseController
                 $emailService->setMessage($template);
 
                 try {
-                    if ($emailService->send()) {
-                        $this->mdlDraw->updateDraw(['cron_status' => 1], ['draw_id' => $draw['draw_id']]);
-                        echo "Sent to " . $draw['email'] . "<br>";
-                    }
+                    // Email sending disabled, handled by Takeoff
+                    $this->mdlDraw->updateDraw(['cron_status' => 1], ['draw_id' => $draw['draw_id']]);
+                    echo "Processed " . $draw['email'] . "<br>";
                 } catch (\Exception $e) {
-                    log_message('error', 'Cron draw email error: ' . $e->getMessage());
+                    log_message('error', 'Cron draw error: ' . $e->getMessage());
                     echo "Error for " . $draw['email'] . ": " . $e->getMessage() . "<br>";
                 }
             }

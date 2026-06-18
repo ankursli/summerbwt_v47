@@ -18,7 +18,7 @@ class Email extends BaseConfig
     /**
      * The mail sending protocol: mail, sendmail, smtp
      */
-    public string $protocol = 'mail';
+    public string $protocol = 'smtp';
 
     /**
      * The server path to Sendmail.
@@ -28,7 +28,7 @@ class Email extends BaseConfig
     /**
      * SMTP Server Hostname
      */
-    public string $SMTPHost = '';
+    public string $SMTPHost = 'mail-eu.smtp2go.com';
 
     /**
      * Which SMTP authentication method to use: login, plain
@@ -38,17 +38,17 @@ class Email extends BaseConfig
     /**
      * SMTP Username
      */
-    public string $SMTPUser = '';
+    public string $SMTPUser = 'bwt22';
 
     /**
      * SMTP Password
      */
-    public string $SMTPPass = '';
+    public string $SMTPPass = 'UPWKng3ZrMtql5tB';
 
     /**
      * SMTP Port
      */
-    public int $SMTPPort = 25;
+    public int $SMTPPort = 2525;
 
     /**
      * SMTP Timeout (in seconds)
